@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Movies.Core.Contract.Movie;
+using Movies.Core.Contracts.Video;
+using Movies.Core.Service.Movie;
+using Movies.Core.Service.Video;
 using Movies.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +17,18 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddTransient<IMovieService, MovieService>();
+builder.Services.AddTransient<IVideoService, VideoService>();
+
+
+builder.Services.Configure<IISServerOptions>(options =>
+{
+    options.MaxRequestBodySize = 1073741824;
+});
+
+
+
 
 var app = builder.Build();
 

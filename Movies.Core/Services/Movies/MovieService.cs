@@ -25,7 +25,7 @@
             var movie = new Movie
             {
                 MovieName = addMovie.MovieName,
-                GenreId = genre.GenreId,
+                GenreId = addMovie.GenreId,
                 Actor = addMovie.Actor,
                 Country = addMovie.Country,
                 Director = addMovie.Director,

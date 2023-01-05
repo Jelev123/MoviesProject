@@ -1,0 +1,17 @@
+D:\Projects\MoviesProject\Movies.Core\bin\Debug\net6.0\Movies.Core.deps.json
+D:\Projects\MoviesProject\Movies.Core\bin\Debug\net6.0\Movies.Core.runtimeconfig.json
+D:\Projects\MoviesProject\Movies.Core\bin\Debug\net6.0\Movies.Core.dll
+D:\Projects\MoviesProject\Movies.Core\bin\Debug\net6.0\Movies.Core.pdb
+D:\Projects\MoviesProject\Movies.Core\bin\Debug\net6.0\Movies.Infrastructure.dll
+D:\Projects\MoviesProject\Movies.Core\bin\Debug\net6.0\Movies.Infrastructure.pdb
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.csproj.AssemblyReference.cache
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.AssemblyInfoInputs.cache
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.AssemblyInfo.cs
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.csproj.CoreCompileInputs.cache
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.csproj.CopyComplete
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.dll
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\refint\Movies.Core.dll
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.pdb
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\Movies.Core.genruntimeconfig.cache
+D:\Projects\MoviesProject\Movies.Core\obj\Debug\net6.0\ref\Movies.Core.dll
