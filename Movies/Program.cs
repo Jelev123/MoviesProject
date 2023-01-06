@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Movies.Core.Contract.Movie;
@@ -22,15 +23,7 @@ builder.Services.AddTransient<IMovieService, MovieService>();
 builder.Services.AddTransient<IVideoService, VideoService>();
 
 
-builder.Services.Configure<IISServerOptions>(options =>
-{
-    options.MaxRequestBodySize = 1073741824;
-});
-
-
-
-
-var app = builder.Build();
+    var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

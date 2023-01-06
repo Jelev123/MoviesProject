@@ -6,6 +6,8 @@
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Http;
     using Movies.Core.ViewModels.Movie;
+    using System.Data.SqlClient;
+    using System.Configuration;
 
     public class VideoService : IVideoService
     {
@@ -32,8 +34,21 @@
                         MovieVideo = await UploadVideo(folder, file)
                     };
                     model.Gallery.Add(gallery);
+
+                    var con = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+                    SqlConnection connection = new SqlConnection(con);
+                    string query = "Insert into [dbo].[Videos] values(@MovieVideo,@MovieId)";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    connection.Open();
+                    command.Parameters.AddWithValue("@MovieVideo", gallery.MovieVideo);
+                    command.Parameters.AddWithValue("@MovieId", gallery.MovieId);
+                    command.ExecuteNonQuery();
+                    connection.Close();
                 }
             }
+
+           
+
         }
 
         public async Task<string> UploadVideo(string folderPath, IFormFile file)

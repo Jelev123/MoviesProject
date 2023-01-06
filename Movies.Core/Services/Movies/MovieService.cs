@@ -6,6 +6,8 @@
     using System.Threading.Tasks;
     using Movies.Infrastructure.Data.Models;
     using Movies.Core.Contracts.Video;
+    using System.Collections.Generic;
+    using Movies.Core.ViewModels.Video;
 
     public class MovieService : IMovieService
     {
@@ -20,8 +22,8 @@
 
         public Task AddMovie(AddMovieViewModel addMovie, string imagePath)
         {
+            
             videoService.CheckVideos(addMovie);
-            var genre = this.data.Genres.FirstOrDefault(s => s.GenreName == addMovie.GenreName);
             var movie = new Movie
             {
                 MovieName = addMovie.MovieName,
@@ -47,6 +49,47 @@
             data.Add(movie);
             data.SaveChanges();
             return Task.CompletedTask;
+        }
+
+        public IEnumerable<AddMovieViewModel> AllMovie()
+        {
+            var all = this.data.Movies
+                .Select(s => new AddMovieViewModel
+                {
+                    MovieId = s.MovieId,
+                    MovieName = s.MovieName,
+                    GenreId = s.GenreId,
+                    Actor = s.Actor,
+                    Country = s.Country,
+                    CoverPhoto = s.CoverPhoto,
+                    Year = s.Year,
+                });
+
+            return all;
+        }
+
+        public AddMovieViewModel GetMovieById(int id)
+        {
+            var movie = this.data.Movies
+                .Where(s => s.MovieId == id)
+                .Select(s => new AddMovieViewModel
+                {
+                    MovieId = s.MovieId,
+                    MovieName = s.MovieName,
+                    GenreId = s.GenreId,
+                    Actor = s.Actor,
+                    Country = s.Country,
+                    CoverPhoto = s.CoverPhoto,
+                    Year = s.Year,
+                    Gallery = s.Videos
+                    .Select(s => new VideoGalleryModel
+                    {
+                        MovieVideo = s.MovieVideo,
+                        MovieId = s.MovieId,
+                    }).ToList()
+                }).FirstOrDefault();
+
+            return movie;
         }
     }
 }

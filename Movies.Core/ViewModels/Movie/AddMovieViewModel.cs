@@ -23,7 +23,7 @@
 
         public string Country { get; set; }
 
-        public IFormFileCollection VideoFiles { get; set; }
+        public List<IFormFile> VideoFiles { get; set; }
 
         public List<VideoGalleryModel> Gallery { get; set; }
     }

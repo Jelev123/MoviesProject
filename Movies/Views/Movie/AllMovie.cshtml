@@ -1,0 +1,28 @@
+﻿@using Movies.Core.ViewModels.Movie
+@model IEnumerable<AddMovieViewModel>
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="cold-md-4">
+            <div class="card-body">
+                <section class="p-0">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="list-group">
+                                <a asp-action="GetMovieById" asp-controller="Movie" class="btn" asp-route-id="@item.MovieId">
+                                    <img width="200px" src="@item.CoverPhoto" alt="@item.MovieName">
+                                </a>
+                                <li class="list-group-item">Category: @item.MovieName</li>
+                                <li class="list-group-item">@item.Country</li>
+                                <li class="list-group-item">@item.Year $</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    }
+</div>
+

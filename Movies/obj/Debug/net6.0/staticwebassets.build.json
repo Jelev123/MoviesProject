@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u7xlMFUTcEvZHFxlmSxpCScuGhzwiaE+lzkuRLYH36s=",
+  "Hash": "/zmeKc6T5HTlmNiPXGov1uXZPXHJIgBL38rD79FfX3Q=",
   "Source": "Movies",
   "BasePath": "_content/Movies",
   "Mode": "Default",
@@ -2091,12 +2091,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\34790e9a-61fa-4876-a1cb-abfcc84be941_Sample.avi",
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\1833fbca-273c-4d23-b2bd-838120d8e78a_Sample.avi",
       "SourceId": "Movies",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
       "BasePath": "_content/Movies",
-      "RelativePath": "Movies/Videos/34790e9a-61fa-4876-a1cb-abfcc84be941_Sample.avi",
+      "RelativePath": "Movies/Videos/1833fbca-273c-4d23-b2bd-838120d8e78a_Sample.avi",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2105,15 +2105,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\34790e9a-61fa-4876-a1cb-abfcc84be941_Sample.avi"
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\1833fbca-273c-4d23-b2bd-838120d8e78a_Sample.avi"
     },
     {
-      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\c393c742-1589-40ab-bbe5-096c7525f622_Sample.avi",
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\18624f4e-864b-433d-8b33-349e51be2195_118441080_3545798708786505_940211662821323093_n.jpg",
       "SourceId": "Movies",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
       "BasePath": "_content/Movies",
-      "RelativePath": "Movies/Videos/c393c742-1589-40ab-bbe5-096c7525f622_Sample.avi",
+      "RelativePath": "Movies/Videos/18624f4e-864b-433d-8b33-349e51be2195_118441080_3545798708786505_940211662821323093_n.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2122,7 +2122,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\c393c742-1589-40ab-bbe5-096c7525f622_Sample.avi"
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\18624f4e-864b-433d-8b33-349e51be2195_118441080_3545798708786505_940211662821323093_n.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\98c97988-660f-47aa-a007-7a10ecd4f148_118174653_3530949793604730_7294254219026583265_n.jpg",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Movies/Videos/98c97988-660f-47aa-a007-7a10ecd4f148_118174653_3530949793604730_7294254219026583265_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\98c97988-660f-47aa-a007-7a10ecd4f148_118174653_3530949793604730_7294254219026583265_n.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\f9bfd247-ea44-4738-aeb7-77e05a447236_sample.avi",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Movies/Videos/f9bfd247-ea44-4738-aeb7-77e05a447236_sample.avi",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\f9bfd247-ea44-4738-aeb7-77e05a447236_sample.avi"
     }
   ]
 }

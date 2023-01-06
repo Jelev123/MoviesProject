@@ -1,0 +1,20 @@
+﻿@using Movies.Core.ViewModels.Movie
+@model AddMovieViewModel
+
+
+@foreach (var item in Model.Gallery)
+{
+
+    
+    <div class="video-frame">
+
+    <video controls>
+        <source src="@item.MovieVideo"  />
+    </video>
+
+</div>
+}
+
+
+    
+

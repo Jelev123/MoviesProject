@@ -6,5 +6,9 @@
     {
         Task AddMovie(AddMovieViewModel addMovie, string imagePath);
 
+        IEnumerable<AddMovieViewModel> AllMovie();
+
+        AddMovieViewModel GetMovieById(int id);
+
     }
 }
