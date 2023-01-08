@@ -11,9 +11,14 @@
                     <span asp-validation-for="MovieName" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="GenreId"></label>
-                    <input asp-for="GenreId" class="form-control" />
-                    <span asp-validation-for="GenreId" class="text-danger"></span>
+                    <label asp-for="GenreName"></label>
+                <select class="form-control text-primary" id="genres" asp-for="GenreName">
+                    <option selected disabled><------></></option>
+                    @foreach (var genre in (IEnumerable<AddMovieViewModel>)this.ViewData["genres"])
+                    {
+                        <option value="@genre.GenreName">@genre.GenreName</option>
+                    }
+                </select>
                 </div>
                 <div class="form-group">
                     <label asp-for="Country"></label>
@@ -24,6 +29,11 @@
                     <label asp-for="VideoFiles"></label>
                     <input asp-for="VideoFiles" class="form-control" />
                     <span asp-validation-for="VideoFiles" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MovieSubs"></label>
+                    <input asp-for="MovieSubs" class="form-control" />
+                    <span asp-validation-for="MovieSubs" class="text-danger"></span>
                 </div>
                  <div class="form-group">
                     <label asp-for="CoverPhoto"></label>

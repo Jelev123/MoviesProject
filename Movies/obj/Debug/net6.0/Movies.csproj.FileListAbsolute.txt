@@ -1,3 +1,12 @@
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.csproj.AssemblyReference.cache
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.RazorAssemblyInfo.cache
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.RazorAssemblyInfo.cs
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\web.config
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\appsettings.Development.json
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\appsettings.json
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Movies.staticwebassets.runtime.json
@@ -65,15 +74,6 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Movies.Core.dll
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Movies.Infrastructure.dll
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Movies.Core.pdb
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Movies.Infrastructure.pdb
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.csproj.AssemblyReference.cache
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.MvcApplicationPartsAssemblyInfo.cs
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.MvcApplicationPartsAssemblyInfo.cache
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.RazorAssemblyInfo.cache
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.RazorAssemblyInfo.cs
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\staticwebassets.build.json
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\staticwebassets.development.json
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
@@ -85,4 +85,3 @@ D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\refint\Movies.dll
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.pdb
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\ref\Movies.dll
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\web.config

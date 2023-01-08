@@ -22,20 +22,18 @@
 
         public Task AddMovie(AddMovieViewModel addMovie, string imagePath)
         {
-            
+            var genre = this.data.Genres.FirstOrDefault(s => s.GenreName == addMovie.GenreName);
             videoService.CheckVideos(addMovie);
             var movie = new Movie
             {
                 MovieName = addMovie.MovieName,
-                GenreId = addMovie.GenreId,
+                GenreId = genre.GenreId,
                 Actor = addMovie.Actor,
                 Country = addMovie.Country,
                 Director = addMovie.Director,
                 Year = addMovie.Year,
                 CoverPhoto = addMovie.CoverPhoto,
             };
-
-
             movie.Videos = new List<Video>();
 
             foreach (var file in addMovie.Gallery)
@@ -43,9 +41,9 @@
                 movie.Videos.Add(new Video()
                 {
                     MovieVideo = file.MovieVideo,
+                    MovieSubs = file.MovieSubs,
                 });
             }
-
             data.Add(movie);
             data.SaveChanges();
             return Task.CompletedTask;
@@ -59,7 +57,9 @@
                     MovieId = s.MovieId,
                     MovieName = s.MovieName,
                     GenreId = s.GenreId,
+                    GenreName = s.Genre.GenreName,
                     Actor = s.Actor,
+                    Director = s.Director,
                     Country = s.Country,
                     CoverPhoto = s.CoverPhoto,
                     Year = s.Year,
@@ -86,8 +86,10 @@
                     {
                         MovieVideo = s.MovieVideo,
                         MovieId = s.MovieId,
+                        MovieSubs = s.MovieSubs,
                     }).ToList()
                 }).FirstOrDefault();
+
 
             return movie;
         }

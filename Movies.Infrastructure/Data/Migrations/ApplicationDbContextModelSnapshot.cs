@@ -294,6 +294,9 @@ namespace Movies.Infrastructure.Data.Migrations
                     b.Property<int>("MovieId")
                         .HasColumnType("int");
 
+                    b.Property<string>("MovieSubs")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("MovieVideo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

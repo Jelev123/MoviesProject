@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Movies.Core.Contract.Genre;
 using Movies.Core.Contract.Movie;
 using Movies.Core.Contracts.Video;
 using Movies.Core.Service.Movie;
 using Movies.Core.Service.Video;
+using Movies.Core.Services.Genre;
 using Movies.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +24,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddTransient<IMovieService, MovieService>();
 builder.Services.AddTransient<IVideoService, VideoService>();
+builder.Services.AddTransient<IGenreService, GenreService>();
 
 
     var app = builder.Build();
@@ -37,8 +41,20 @@ else
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+//app.UseStaticFiles();
+
+var provider = new FileExtensionContentTypeProvider();
+provider.Mappings[".vtt"] = "text/vtt";
+provider.Mappings[".srt"] = "text/srt";
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    ContentTypeProvider = provider
+
+});
 
 app.UseRouting();
 

@@ -22,44 +22,40 @@
         {
             if (model.VideoFiles != null)
             {
-                string folder = "Movies/Videos/";
-
                 model.Gallery = new List<VideoGalleryModel>();
 
-                foreach (var file in model.VideoFiles)
+                foreach (var video in model.VideoFiles)
                 {
-                    var gallery = new VideoGalleryModel()
-                    {
-                        VideoName = file.FileName,
-                        MovieVideo = await UploadVideo(folder, file)
-                    };
-                    model.Gallery.Add(gallery);
+                    string folder = "Movies/Videos/";
 
-                    var con = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-                    SqlConnection connection = new SqlConnection(con);
-                    string query = "Insert into [dbo].[Videos] values(@MovieVideo,@MovieId)";
-                    SqlCommand command = new SqlCommand(query, connection);
-                    connection.Open();
-                    command.Parameters.AddWithValue("@MovieVideo", gallery.MovieVideo);
-                    command.Parameters.AddWithValue("@MovieId", gallery.MovieId);
-                    command.ExecuteNonQuery();
-                    connection.Close();
+                    foreach (var subs in model.MovieSubs)
+                    {
+                        var movie = new VideoGalleryModel()
+                        {
+                            VideoName = video.FileName,
+                            MovieSubs = await UploadSubs(folder, subs),
+                            MovieVideo = await UploadVideo(folder, video),
+                        };
+                        model.Gallery.Add(movie);
+                    }
                 }
             }
-
-           
-
         }
 
         public async Task<string> UploadVideo(string folderPath, IFormFile file)
         {
-            folderPath += Guid.NewGuid().ToString() + "_" + file.FileName;
-
+            folderPath +=  "_" + file.FileName;
             string serverFolder = Path.Combine(environment.WebRootPath, folderPath);
-
-            await file.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
-
+            file.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
             return "/" + folderPath;
+        }
+
+        public async Task<string> UploadSubs(string folderpath, IFormFile subs)
+        {
+            folderpath += "_" + subs.FileName;
+            string serverFolder = Path.Combine(environment.WebRootPath, folderpath);
+            subs.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
+            return "/" + folderpath;
         }
     }
 }

@@ -1,20 +1,28 @@
 ﻿@using Movies.Core.ViewModels.Movie
 @model AddMovieViewModel
 
-
+<div class="justify-content-center">
 @foreach (var item in Model.Gallery)
 {
+    <head>
+        <!-- Load dependent stylesheets. -->
+        <link rel="stylesheet" href="https://demo.screen9.com:8081/demos/grbla/hlsvtt/6207/video-js.css" />
+    </head>
 
-    
-    <div class="video-frame">
+    <body>
+        <div class='videocontainer'>
+            <video id="content_video" class="video-js vjs-default-skin vjs-12-9" controls preload="auto" width="640" height="360">
+                <source src="@item.MovieVideo" type="video/mp4" />
+                <track label="Bulgarian" kind="subtitles" srclang="bg" src="@item.MovieSubs" />
+        </div>
+    </body>
+    <script src='https://demo.screen9.com:8081/demos/grbla/hlsvtt/6207/video.js'></script>
+    <script>
+    var player = videojs('content_video');
+    player.on('ready', function() {
+        player.vhs = null;
 
-    <video controls>
-        <source src="@item.MovieVideo"  />
-    </video>
-
-</div>
+    });
+</script>
 }
-
-
-    
-
+</div>
