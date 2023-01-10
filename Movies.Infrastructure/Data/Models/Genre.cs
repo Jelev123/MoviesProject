@@ -7,6 +7,5 @@
         public string GenreName { get; set; }
 
         public ICollection<Movie> Movies { get; set; } = new HashSet<Movie>();
-
     }
 }
