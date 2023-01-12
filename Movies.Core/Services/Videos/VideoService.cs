@@ -8,14 +8,17 @@
     using Movies.Core.ViewModels.Movie;
     using System.Data.SqlClient;
     using System.Configuration;
+    using Movies.Infrastructure.Data;
 
     public class VideoService : IVideoService
     {
         private readonly IWebHostEnvironment environment;
+        private readonly ApplicationDbContext data;
 
-        public VideoService(IWebHostEnvironment environment)
+        public VideoService(IWebHostEnvironment environment, ApplicationDbContext data)
         {
             this.environment = environment;
+            this.data = data;
         }
 
         public async Task CheckVideos(AddMovieViewModel model)
@@ -28,34 +31,20 @@
                 {
                     string folder = "Movies/Videos/";
 
-                    foreach (var subs in model.MovieSubs)
+                    var movie = new VideoGalleryModel()
                     {
-                        var movie = new VideoGalleryModel()
-                        {
-                            VideoName = video.FileName,
-                            MovieSubs = await UploadSubs(folder, subs),
-                            MovieVideo = await UploadVideo(folder, video),
-                        };
-                        model.Gallery.Add(movie);
-                    }
+                        MovieVideo = await UploadVideo(folder, video),
+                    };
+                    model.Gallery.Add(movie);
                 }
             }
         }
-
         public async Task<string> UploadVideo(string folderPath, IFormFile file)
         {
             folderPath +=  "_" + file.FileName;
             string serverFolder = Path.Combine(environment.WebRootPath, folderPath);
             file.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
             return "/" + folderPath;
-        }
-
-        public async Task<string> UploadSubs(string folderpath, IFormFile subs)
-        {
-            folderpath += "_" + subs.FileName;
-            string serverFolder = Path.Combine(environment.WebRootPath, folderpath);
-            subs.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
-            return "/" + folderpath;
         }
     }
 }

@@ -40,15 +40,14 @@
             {
                 movie.Videos.Add(new Video()
                 {
+                    VideoId = addMovie.VideoId,
                     MovieVideo = file.MovieVideo,
-                    MovieSubs = file.MovieSubs,
                 });
             }
             data.Add(movie);
             data.SaveChanges();
             return Task.CompletedTask;
         }
-
         public IEnumerable<AddMovieViewModel> AllMovie()
         {
             var all = this.data.Movies

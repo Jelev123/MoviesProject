@@ -44,7 +44,6 @@
             return this.Redirect("/");
         }
 
-
         public IActionResult AllMovie()
         {
            var all = this.movieService.AllMovie();

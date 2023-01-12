@@ -1,28 +1,47 @@
 ﻿@using Movies.Core.ViewModels.Movie
 @model AddMovieViewModel
 
-<div class="justify-content-center">
-@foreach (var item in Model.Gallery)
-{
-    <head>
-        <!-- Load dependent stylesheets. -->
-        <link rel="stylesheet" href="https://demo.screen9.com:8081/demos/grbla/hlsvtt/6207/video-js.css" />
-    </head>
 
-    <body>
-        <div class='videocontainer'>
-            <video id="content_video" class="video-js vjs-default-skin vjs-12-9" controls preload="auto" width="640" height="360">
-                <source src="@item.MovieVideo" type="video/mp4" />
-                <track label="Bulgarian" kind="subtitles" srclang="bg" src="@item.MovieSubs" />
+<div class="container-fluid pb-video-container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row pb-row">
+            @foreach (var item in Model.Gallery)
+            {
+                <div class="col-md-3 pb-videoca">
+                     <video controls="controls" class="pb-video-frame" src="@item.MovieVideo"  width="100%" height="200" frameborder="0" allowfullscreen />
+                    <track label="Bulgarian" kind="subtitles" srclang="bg" src="@item.MovieSubs" />
+                </div>
+            }
         </div>
-    </body>
-    <script src='https://demo.screen9.com:8081/demos/grbla/hlsvtt/6207/video.js'></script>
-    <script>
-    var player = videojs('content_video');
-    player.on('ready', function() {
-        player.vhs = null;
-
-    });
-</script>
-}
+    </div>
 </div>
+
+<style>
+    .pb-video-container {
+        padding-top: 20px;
+       
+        font-family: Lato;
+    }
+
+    .pb-video {
+        border: 1px solid #e6e6e6;
+        padding: 5px;
+    }
+
+        .pb-video:hover {
+            background: #F0FFFF;
+        }
+
+    .pb-video-frame {
+        transition: width 1.5s, height 1.5s;
+    }
+
+        .pb-video-frame:hover {
+            height: 250px;
+        }
+
+    .pb-row {
+        margin-bottom: 10px;
+    }
+</style>
+

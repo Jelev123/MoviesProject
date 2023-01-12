@@ -6,8 +6,9 @@
 
         public string MovieVideo { get; set; }
 
+        public string? VideoName { get; set; }
 
-        public string MovieSubs { get; set; }
+        public string? MovieSubs { get; set; }
 
         public int MovieId { get; set; }
 

@@ -7,7 +7,5 @@
     public interface IVideoService
     {
         Task CheckVideos(AddMovieViewModel model);
-
-        //Task<string> UploadVideo(string folderPath, IFormFile file);
     }
 }

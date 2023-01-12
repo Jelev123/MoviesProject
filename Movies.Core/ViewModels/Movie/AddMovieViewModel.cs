@@ -9,6 +9,8 @@
 
         public string MovieName { get; set; }
 
+        public string VideoName { get; set; }
+
         public string GenreName { get; set; }
 
         public int GenreId { get; set; }
@@ -22,6 +24,8 @@
         public string CoverPhoto { get; set; }
 
         public string Country { get; set; }
+
+        public int VideoId { get; set; }
 
         public List<IFormFile> VideoFiles { get; set; }
 

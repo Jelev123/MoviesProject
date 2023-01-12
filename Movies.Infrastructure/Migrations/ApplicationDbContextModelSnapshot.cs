@@ -295,11 +295,13 @@ namespace Movies.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("MovieSubs")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MovieVideo")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VideoName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("VideoId");
