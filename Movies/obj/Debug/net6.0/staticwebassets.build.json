@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TO6KB+3vAU3Bc4Jy9iRbsh/7jgQftQiepmWnT1/h2GE=",
+  "Hash": "QqkrsHoNm96VT7ap7/NY9JGMJmOOrkr2wqtzmcKbCXY=",
   "Source": "Movies",
   "BasePath": "_content/Movies",
   "Mode": "Default",
@@ -2108,6 +2108,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Picures\\MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Movies/Picures/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Movies\\Picures\\MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg"
+    },
+    {
       "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\[SubtitleTools.com] Friends.S01E01.TOW.All.Begins.UNCUT.DVDrip.XviD-SAiNTS.vtt",
       "SourceId": "Movies",
       "SourceType": "Discovered",
@@ -2499,12 +2516,12 @@
       "OriginalItemSpec": "wwwroot\\Movies\\Videos\\[SubtitleTools.com] Friends.S01E24.TOW.Rachel.Finds.Out.UNCUT.DVDrip.XviD-SAiNTS.vtt"
     },
     {
-      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\_Friends.S01E01.UNCUT.DVDRip.XviD-SAiNTS.mp4",
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\_Friends.S01E01.mp4",
       "SourceId": "Movies",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
       "BasePath": "_content/Movies",
-      "RelativePath": "Movies/Videos/_Friends.S01E01.UNCUT.DVDRip.XviD-SAiNTS.mp4",
+      "RelativePath": "Movies/Videos/_Friends.S01E01.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2513,15 +2530,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\_Friends.S01E01.UNCUT.DVDRip.XviD-SAiNTS.mp4"
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\_Friends.S01E01.mp4"
     },
     {
-      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\_Friends.S01E02.UNCUT.DVDRip.XviD-SAiNTS.mp4",
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\_Friends.S01E02.mp4",
       "SourceId": "Movies",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
       "BasePath": "_content/Movies",
-      "RelativePath": "Movies/Videos/_Friends.S01E02.UNCUT.DVDRip.XviD-SAiNTS.mp4",
+      "RelativePath": "Movies/Videos/_Friends.S01E02.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2530,7 +2547,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\_Friends.S01E02.UNCUT.DVDRip.XviD-SAiNTS.mp4"
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\_Friends.S01E02.mp4"
+    },
+    {
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\Transformers.2007.DVDRip.XviD-ViEW.avi",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Movies/Videos/Transformers.2007.DVDRip.XviD-ViEW.avi",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\Transformers.2007.DVDRip.XviD-ViEW.avi"
     }
   ]
 }

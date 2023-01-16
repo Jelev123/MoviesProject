@@ -7,8 +7,6 @@
     using Movies.Core.ViewModels.Movie;
     using Movies.Infrastructure.Data;
 
-
-
     public class MovieController : Controller
     {
         private readonly IMovieService movieService;
@@ -55,5 +53,15 @@
             var movie = this.movieService.GetMovieById(id);
             return this.View(movie);
         }
+
+
+        [Route("video/playvideo")]
+        public IActionResult PlayVideo()
+        {
+            var video = @"D:\Projects\MoviesProject\Movies\wwwroot\Movies\Videos\_Friends.S01E02.mp4";
+            return PhysicalFile(video, "video/mp4");
+        }
     }
+    
 }
+

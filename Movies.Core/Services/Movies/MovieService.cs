@@ -40,6 +40,7 @@
             {
                 movie.Videos.Add(new Video()
                 {
+                    VideoName = file.VideoName,
                     VideoId = addMovie.VideoId,
                     MovieVideo = file.MovieVideo,
                 });
@@ -83,6 +84,7 @@
                     Gallery = s.Videos
                     .Select(s => new VideoGalleryModel
                     {
+                        VideoName = s.VideoName,
                         MovieVideo = s.MovieVideo,
                         MovieId = s.MovieId,
                         MovieSubs = s.MovieSubs,

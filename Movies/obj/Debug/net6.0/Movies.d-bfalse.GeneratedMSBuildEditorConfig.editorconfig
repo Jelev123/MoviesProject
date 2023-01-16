@@ -1,0 +1,170 @@
+is_global = true
+build_property.XamlSourceGeneratorTracingFolder = 
+build_property.TargetPlatformIdentifier = 
+build_property.TargetFramework = net6.0
+build_property.TargetFramework = net6.0
+build_property.ProjectTypeGuidsProperty = 
+build_property.MSBuildProjectFullPath = D:\Projects\MoviesProject\Movies\Movies.csproj
+build_property.RootNamespace = Movies
+build_property.RootNamespace = Movies
+build_property.RootNamespace = Movies
+build_property.DefineConstantsProperty = TRACE,DEBUG,NET,NET6_0,NETCOREAPP,HAS_UNO,UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE,UNO_HAS_NO_IDEPENDENCYOBJECT,UNO_REFERENCE_API
+build_property.Configuration = Debug
+build_property.IntermediateOutputPath = obj\Debug\net6.0\
+build_property.AndroidApplication = 
+build_property.OutputType = Exe
+build_property.MSBuildProjectName = Movies
+build_property.BuildingProject = true
+build_property.DesignTimeBuild = 
+build_property.UnoUISourceGeneratorDebuggerBreak = 
+build_property.BuildingInsideVisualStudio = true
+build_property.IsHotReloadHost = 
+build_property.UseWPF = 
+build_property.IsUnoHead = 
+build_property.WindowsAppSDKWinUI = 
+build_property.UnoRemoteControlPort = 
+build_property.UnoRemoteControlHost = 
+build_property.UnoRemoteControlProcessorsPath = 
+build_property.UseUnoXamlParser = 
+build_property.UnoSkipUserControlsInVisualTree = 
+build_property.ShouldWriteErrorOnInvalidXaml = 
+build_property.IsUiAutomationMappingEnabled = 
+build_property.ShouldAnnotateGeneratedXaml = 
+build_property.DefaultLanguage = en
+build_property.UnoPlatformTelemetryOptOut = 
+build_property.ExcludeXamlNamespacesProperty = win,not_mux
+build_property.IncludeXamlNamespacesProperty = xamarin,not_win,legacy
+build_property.XamlGeneratorAnalyzerSuppressionsProperty = nventive.Usage-NV0056,nventive.Usage-NV0058,nventive.Usage-NV1003,nventive.Usage-NV0085,nventive.Usage-NV2001,nventive.Usage-NV2003,nventive.Usage-NV2004,nventive.Usage-NV2005,csharp-618 // Ignore obsolete members warnings,csharp-105 // Ignore duplicate namespaces,csharp-1591 // Ignore missing XML comment warnings,csharp-CS8669 // Ignore annotation for nullable reference types,dotnet-CA1001
+build_property.LegacyTypesProperty = 
+build_property.UnoXamlResourcesTrimming = 
+build_property.BaseIntermediateOutputPath = D:\Projects\MoviesProject\Movies\obj\
+build_property.AssemblyName = Movies
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.ProjectDir = D:\Projects\MoviesProject\Movies\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\MoviesProject\Movies
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/MoviesProject/Movies/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Areas\Identity\Pages\_ViewStart.cshtml
+build_metadata.AdditionalFiles.Identity = Areas\Identity\Pages\_ViewStart.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Home\Index.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Home\Index.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Home\Privacy.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Home\Privacy.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Movie/AddMovie.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\AddMovie.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Movie\AddMovie.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Movie/AllMovie.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\AllMovie.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Movie\AllMovie.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWxsTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Movie/GetMovieById.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\GetMovieById.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Movie\GetMovieById.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcR2V0TW92aWVCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Movie/PlayVideo.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\PlayVideo.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Movie\PlayVideo.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcUGxheVZpZGVvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\Error.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Shared\Error.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\_LoginPartial.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Shared\_LoginPartial.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Shared\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\_ViewImports.cshtml
+build_metadata.AdditionalFiles.Identity = Views\_ViewImports.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\_ViewStart.cshtml
+build_metadata.AdditionalFiles.Identity = Views\_ViewStart.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/MoviesProject/Movies/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\_Layout.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Shared\_Layout.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-olg3qfw34b

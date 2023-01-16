@@ -1,5 +1,4 @@
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.csproj.AssemblyReference.cache
-D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.AssemblyInfoInputs.cache
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.AssemblyInfo.cs
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.csproj.CoreCompileInputs.cache
@@ -86,3 +85,122 @@ D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.pdb
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\ref\Movies.dll
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\_ViewStart.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Home\Index.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Home\Privacy.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\AddMovie.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\AllMovie.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\GetMovieById.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\Error.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_Layout.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_LoginPartial.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_ValidationScriptsPartial.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\_ViewImports.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\_ViewStart.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\MY.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\site.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\favicon.ico
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\site.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\LICENSE
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\dist\jquery.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\LICENSE.txt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Picures\MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E01.TOW.All.Begins.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E02.TOW.The.Sonogram.at.the.End.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E03.TOW.The.Thumb.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E04.TOW.George.Stephanopoulos.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E05.TOW.The.East.German.Laundry.Detergent.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E06.TOW.The.Butt.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E07.TOW.The.Blackout.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E08.TOW.Nana.Dies.Twice.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E09.TOW.The.Underdog.Gets.Away.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E10.TOW.The.Monkey.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E11.TOW.Mrs.Bing.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E12.TOW.The.Dozen.Lasagnes.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E13.TOW.The.Boobies.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E14.TOW.The.Candy.Hearts.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E15.TOW.The.Stoned.Guy.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E16-17.TOW.The.Two.Parts.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E18.TOW.All.The.Poker.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E19.TOW.The.Monkey.Gets.Away.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E20.TOW.The.Evil.Orthodontist.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E21.TOW.The.Fake.Monica.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E22.TOW.The.Ick.Factor.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E23.TOW.The.Birth.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E24.TOW.Rachel.Finds.Out.UNCUT.DVDrip.XviD-SAiNTS.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Friends.S01E01.mp4
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Friends.S01E02.mp4
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\web.config
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\appsettings.Development.json
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\appsettings.json
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Movies.staticwebassets.runtime.json
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.Diagnostics.Eventing.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.Foundation.Logging.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.Foundation.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.Composition.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.Dispatching.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.FluentTheme.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.FluentTheme.v1.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.FluentTheme.v2.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.Toolkit.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.Xaml.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.dll
+D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\Transformers.2007.DVDRip.XviD-ViEW.avi
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\PlayVideo.cshtml

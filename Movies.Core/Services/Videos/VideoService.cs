@@ -30,9 +30,12 @@
                 foreach (var video in model.VideoFiles)
                 {
                     string folder = "Movies/Videos/";
+                    string originalString = video.FileName;
 
+                    string videoName = originalString.Split(".")[0 + 1];
                     var movie = new VideoGalleryModel()
                     {
+                        VideoName = videoName,
                         MovieVideo = await UploadVideo(folder, video),
                     };
                     model.Gallery.Add(movie);

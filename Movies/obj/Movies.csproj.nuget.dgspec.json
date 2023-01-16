@@ -59,6 +59,10 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[4.6.41, )"
             }
           },
           "imports": [
