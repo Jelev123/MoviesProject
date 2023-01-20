@@ -9,6 +9,8 @@
         public string MovieSubs { get; set; }
         public int MovieId { get; set; }
 
+        public string CoverPhoto { get; set; }
+
         public int  VideoId { get; set; }
 
     }

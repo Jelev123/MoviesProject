@@ -12,3 +12,17 @@ D:\Projects\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\refint\Movies.I
 D:\Projects\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.pdb
 D:\Projects\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.genruntimeconfig.cache
 D:\Projects\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\ref\Movies.Infrastructure.dll
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\bin\Debug\net6.0\Movies.Infrastructure.deps.json
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\bin\Debug\net6.0\Movies.Infrastructure.runtimeconfig.json
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\bin\Debug\net6.0\Movies.Infrastructure.dll
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\bin\Debug\net6.0\Movies.Infrastructure.pdb
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.AssemblyInfo.cs
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.dll
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\refint\Movies.Infrastructure.dll
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.pdb
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\Movies.Infrastructure.genruntimeconfig.cache
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies.Infrastructure\obj\Debug\net6.0\ref\Movies.Infrastructure.dll

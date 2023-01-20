@@ -41,18 +41,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!--======Pixel Grid======-->
-    <div><img src="https://www.seanet.com/~owenmp/hvd-web/play-aids/grid-lg.gif" class="pixel-grid" /></div>
-    <div><i id="toggle-grid" class="fa fa-th"></i></div>
     @foreach (var item in Model)
     {
         <div class="container-fluid main-cont">
             <div class="row news-row">
-                <div class="container-fluid row justify-content-center news-block">
+                <div class="container-fluid row justify-content-center ">
                     <div class="card-group">
                         <div class="underlay">
                             <div class="card">
-                                <div class="card-img-top" style="background-image: url(@item.CoverPhoto)"></div>
+                                 <a asp-action="GetMovieById" asp-controller="Movie" class="btn" asp-route-id="@item.MovieId">
+
+                                    <img width="200" src="@item.CoverPhoto" />
+                                     </a>
                                 <div class="card-block">
                                     <h5 class="card-title" style="font-family: 'Anton', sans-serif">@item.MovieName<hr></h5>
                                 </div>
@@ -104,7 +104,7 @@
         background: url("https://images4.alphacoders.com/909/thumb-1920-909185.jpg") fixed no-repeat;
         background-size: cover;
         max-height: 300rem;
-        border: 15px solid transparent !important;
+        border: 5px solid transparent important;
         -o-border-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.75) 0%,rgba(245, 245, 245, 0.75) 0%,rgba(245, 245, 245, 0.75) 16.6%,rgb(245, 245, 245) 37.8%,rgb(245, 245, 245) 48.8%,rgb(254, 254, 254) 53.1%,rgba(245, 245, 245, 0.75) 79.4%,rgba(245, 245, 245, 0.75) 84.3%) !important;
         border-image: -webkit-gradient(linear,left top, right bottom,from(rgba(255, 255, 255, 0.75)),color-stop(0%, rgba(245, 245, 245, 0.75)),color-stop(16.6%, rgba(245, 245, 245, 0.75)),color-stop(37.8%, rgb(245, 245, 245)),color-stop(48.8%, rgb(245, 245, 245)),color-stop(53.1%, rgb(254, 254, 254)),color-stop(79.4%, rgba(245, 245, 245, 0.75)),color-stop(84.3%, rgba(245, 245, 245, 0.75))) !important;
         border-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.75) 0%,rgba(245, 245, 245, 0.75) 0%,rgba(245, 245, 245, 0.75) 16.6%,rgb(245, 245, 245) 37.8%,rgb(245, 245, 245) 48.8%,rgb(254, 254, 254) 53.1%,rgba(245, 245, 245, 0.75) 79.4%,rgba(245, 245, 245, 0.75) 84.3%) !important;
@@ -236,7 +236,7 @@
     }
 
     .news-row {
-        margin: 0;
+        margin: 0
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -251,7 +251,7 @@
         -o-border-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.75) 0%,rgba(245, 245, 245, 0.75) 0%,rgba(245, 245, 245, 0.75) 16.6%,rgb(245, 245, 245) 37.8%,rgb(245, 245, 245) 48.8%,rgb(254, 254, 254) 53.1%,rgba(245, 245, 245, 0.75) 79.4%,rgba(245, 245, 245, 0.75) 84.3%) !important;
         border-image: -webkit-gradient(linear,left top, right bottom,from(rgba(255, 255, 255, 0.75)),color-stop(0%, rgba(245, 245, 245, 0.75)),color-stop(16.6%, rgba(245, 245, 245, 0.75)),color-stop(37.8%, rgb(245, 245, 245)),color-stop(48.8%, rgb(245, 245, 245)),color-stop(53.1%, rgb(254, 254, 254)),color-stop(79.4%, rgba(245, 245, 245, 0.75)),color-stop(84.3%, rgba(245, 245, 245, 0.75))) !important;
         border-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.75) 0%,rgba(245, 245, 245, 0.75) 0%,rgba(245, 245, 245, 0.75) 16.6%,rgb(245, 245, 245) 37.8%,rgb(245, 245, 245) 48.8%,rgb(254, 254, 254) 53.1%,rgba(245, 245, 245, 0.75) 79.4%,rgba(245, 245, 245, 0.75) 84.3%) !important;
-        border-image-slice: 1 !important;
+        border-image-slice: 1 important;
         -webkit-transition: all 0.6s ease;
         transition: all 0.6s ease;
         -webkit-animation: blockAppear .6s ease-in-out;

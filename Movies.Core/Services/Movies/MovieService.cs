@@ -88,6 +88,7 @@
                         MovieVideo = s.MovieVideo,
                         MovieId = s.MovieId,
                         MovieSubs = s.MovieSubs,
+                        CoverPhoto = s.Movie.CoverPhoto,
                     }).ToList()
                 }).FirstOrDefault();
 

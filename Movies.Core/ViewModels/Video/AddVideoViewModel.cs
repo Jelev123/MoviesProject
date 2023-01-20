@@ -4,8 +4,8 @@
 
     public class AddVideoViewModel
     {
-        public IFormFileCollection VideoFiles { get; set; }
+        public List<IFormFile> VideoFiles { get; set; }
 
-        public List<VideoGalleryModel> Gallery { get; set; }
+        public string  VideoName { get; set; }
     }
 }
