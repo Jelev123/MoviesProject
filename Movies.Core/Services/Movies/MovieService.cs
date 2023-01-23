@@ -77,10 +77,12 @@
                     MovieId = s.MovieId,
                     MovieName = s.MovieName,
                     GenreId = s.GenreId,
+                    GenreName = s.Genre.GenreName,
                     Actor = s.Actor,
                     Country = s.Country,
                     CoverPhoto = s.CoverPhoto,
                     Year = s.Year,
+                    Director = s.Director,
                     Gallery = s.Videos
                     .Select(s => new VideoGalleryModel
                     {

@@ -1,0 +1,136 @@
+﻿@using Movies.Core.ViewModels.Movie
+@model AddMovieViewModel
+
+@*
+<div class="container-fluid pb-video-container">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row pb-row">
+            @foreach (var item in Model.Gallery)
+            {
+                <div class="col-md-3 pb-videoca">
+                <h4>@item.VideoName</h4>
+                     <video controls="controls" class="pb-video-frame" src="@item.MovieVideo"  width="100%" height="200" frameborder="0" allowfullscreen />
+                    <track label="Bulgarian" kind="subtitles" srclang="bg" src="@item.MovieSubs" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .pb-video-container {
+        padding-top: 20px;
+       
+        font-family: Lato;
+    }
+
+    .pb-video {
+        border: 1px solid #e6e6e6;
+        padding: 5px;
+    }
+
+        .pb-video:hover {
+            background: #F0FFFF;
+        }
+
+    .pb-video-frame {
+        transition: width 1.5s, height 1.5s;
+    }
+
+        .pb-video-frame:hover {
+            height: 250px;
+        }
+
+    .pb-row {
+        margin-bottom: 10px;
+    }
+</style>
+
+*@
+
+@*<html>
+<head>
+    <title>Newsfeed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="…">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div><i id="toggle-grid" class="fa fa-th"></i></div>
+    <div class="container-fluid pb-video-container">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row pb-row">
+                @foreach (var item in Model.Gallery)
+                {
+                    <div class="col-md-3 pb-videoca">
+                        <h4>@item.VideoName</h4>
+                        <video controls="controls" class="pb-video-frame" src="@item.MovieVideo" width="100%" height="200" frameborder="0" allowfullscreen />
+                        <track label="Bulgarian" kind="subtitles" srclang="bg" src="@item.MovieSubs" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .pb-video-container {
+            padding-top: 20px;
+            font-family: Lato;
+        }
+
+        .pb-video {
+            border: 1px solid #e6e6e6;
+            padding: 5px;
+        }
+
+            .pb-video:hover {
+                background: #F0FFFF;
+            }
+
+        .pb-video-frame {
+            transition: width 1.5s, height 1.5s;
+        }
+
+            .pb-video-frame:hover {
+                height: 250px;
+            }
+
+        .pb-row {
+            margin-bottom: 10px;
+        }
+    </style>
+
+
+</body>
+</html>
+
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    html {
+        overflow-y: scroll;
+    }
+
+    body {
+        background-color: transparent;
+        background: url(@Model.CoverPhoto) fixed no-repeat;
+        background-size: cover;
+        max-height: 300rem;
+        border: 15px solid transparent !important;
+        -o-border-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.75) 0%,rgba(245, 245, 245, 0.75) 0%,rgba(245, 245, 245, 0.75) 16.6%,rgb(245, 245, 245) 37.8%,rgb(245, 245, 245) 48.8%,rgb(254, 254, 254) 53.1%,rgba(245, 245, 245, 0.75) 79.4%,rgba(245, 245, 245, 0.75) 84.3%) !important;
+        border-image: -webkit-gradient(linear,left top, right bottom,from(rgba(255, 255, 255, 0.75)),color-stop(0%, rgba(245, 245, 245, 0.75)),color-stop(16.6%, rgba(245, 245, 245, 0.75)),color-stop(37.8%, rgb(245, 245, 245)),color-stop(48.8%, rgb(245, 245, 245)),color-stop(53.1%, rgb(254, 254, 254)),color-stop(79.4%, rgba(245, 245, 245, 0.75)),color-stop(84.3%, rgba(245, 245, 245, 0.75))) !important;
+        border-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.75) 0%,rgba(245, 245, 245, 0.75) 0%,rgba(245, 245, 245, 0.75) 16.6%,rgb(245, 245, 245) 37.8%,rgb(245, 245, 245) 48.8%,rgb(254, 254, 254) 53.1%,rgba(245, 245, 245, 0.75) 79.4%,rgba(245, 245, 245, 0.75) 84.3%) !important;
+        border-image-slice: 1 !important;
+    }
+
+  
+</style>*@
