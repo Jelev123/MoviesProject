@@ -52,14 +52,14 @@
 			<div class="row">
 				 <label for="username">
 					Username:
-					<input type="text" name="username" id="username" placeholder="Hugh Jackman" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+					<input type="text" name="username" id="username"  pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
 				</label>
 			</div>
 
 			<div class="row">
 				<label for="password">
 					Password:
-					<input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+					<input type="password" name="password" id="password"  pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
 				</label>
 			</div>
 			<div class="row">
@@ -74,13 +74,6 @@
 				<button type="submit">Login</button>
 		   </div>
 		</form>
-		<div class="row">
-			<p>Or via social</p>
-			<div class="social-btn-2">
-				<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
-				<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
-			</div>
-		</div>
 	</div>
 </div>
 <!--end of login form popup-->
@@ -198,12 +191,10 @@
 					<ul class="nav navbar-nav flex-child-menu menu-right">
 						<li class="dropdown first">
 							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							pages <i class="fa fa-angle-down" aria-hidden="true"></i>
+							AddMovie <i class="fa fa-angle-down" aria-hidden="true"></i>
 							</a>
 							<ul class="dropdown-menu level1">
-								<li><a href="landing.html">Landing</a></li>
-								<li><a href="404.html">404 Page</a></li>
-								<li class="it-last"><a href="comingsoon.html">Coming soon</a></li>
+								<a asp-action="AddMovie" asp-controller="Movie">Add Movie</a>
 							</ul>
 						</li>                
 						<li><a href="#">Help</a></li>
@@ -227,13 +218,6 @@
 <div class="slider movie-items">
 	<div class="container">
 		<div class="row">
-			<div class="social-link">
-				<p>Follow us: </p>
-				<a href="#"><i class="ion-social-facebook"></i></a>
-				<a href="#"><i class="ion-social-twitter"></i></a>
-				<a href="#"><i class="ion-social-googleplus"></i></a>
-				<a href="#"><i class="ion-social-youtube"></i></a>
-			</div>
 			<div  class="slick-multiItemSlider">
 				<div class="movie-item">
 					@foreach (var item in Model)
@@ -243,7 +227,7 @@
 
                                     <img width="200" src="@item.CoverPhoto" />
                                 </a>
-                                    <h5 class="card-title" style="font-family: 'Anton', sans-serif">@item.MovieName<hr></h5>
+                                    <h5  class="card-title" style="color:white">@item.MovieName<hr></h5>
                             </div>
 					}
 				</div>

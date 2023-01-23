@@ -241,7 +241,7 @@
             @foreach (var item in Model.Gallery)
             {
                 <div class="col-md-3 pb-videoca">
-                    <h4>@item.VideoName</h4>
+                    <h4 style="color:white">@item.VideoName</h4>
                     <video controls="controls" class="pb-video-frame" src="@item.MovieVideo" width="100%" height="200" frameborder="0" allowfullscreen />
                     <track label="Bulgarian" kind="subtitles" srclang="bg" src="@item.MovieSubs" />
                 </div>

@@ -23,20 +23,18 @@
 
         public async Task CheckVideos(AddMovieViewModel model)
         {
-            if (model.VideoFiles != null)
+            if (model.Video != null)
             {
                 model.Gallery = new List<VideoGalleryModel>();
 
-                foreach (var video in model.VideoFiles)
+                foreach (var video in model.Video)
                 {
                     string folder = "Movies/Videos/";
-                    string originalString = video.FileName;
-
-                    string videoName = originalString.Split(".")[0 + 1];
+                 
                     var movie = new VideoGalleryModel()
                     {
-                        VideoName = videoName,
-                        MovieVideo = await UploadVideo(folder, video),
+                        MovieVideo = await UploadVideo(folder, video.VideoFiles),
+                        VideoName = video.VideoName,
                     };
                     model.Gallery.Add(movie);
                 }

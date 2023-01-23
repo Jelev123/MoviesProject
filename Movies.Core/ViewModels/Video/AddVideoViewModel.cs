@@ -4,7 +4,7 @@
 
     public class AddVideoViewModel
     {
-        public List<IFormFile> VideoFiles { get; set; }
+        public IFormFile VideoFiles { get; set; }
 
         public string  VideoName { get; set; }
     }
