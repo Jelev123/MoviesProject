@@ -199,27 +199,27 @@
 </header>
 <!-- END | Header -->
 
+<div class="col">
 <div class="slider movie-items">
-	<div class="container">
-		<div class="row">
-			<div  class="slick-multiItemSlider">
-				<div class="movie-item">
 					@foreach (var item in Model)
 					{
-						<div class="card">
+	
+	<div class="col-md-10">
+		<div class="col-md-20">
+			<div  class="col-md-20">
+				<div class="movie-item">
+						<div class="col-md-50">
                                 <a asp-action="GetMovieById" asp-controller="Movie" class="btn" asp-route-id="@item.MovieId">
 
                                     <img width="200" src="@item.CoverPhoto" />
                                 </a>
                                     <h5  class="card-title" style="color:white">@item.MovieName<hr></h5>
                             </div>
-					}
 				</div>
-				
-				
-				
 			</div>
-		</div>
+	</div>
+	</div>
+  			}
 	</div>
 </div>
 <div class="movie-items">
@@ -1049,7 +1049,7 @@
 	</div>
 </div>
 
-<div class="trailers">
+@*<div class="trailers">
 	<div class="container">
 		<div class="row ipad-width">
 			<div class="col-md-12">
@@ -1141,7 +1141,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>*@
 <!-- footer section-->
 <footer class="ht-footer">
 	<div class="container">

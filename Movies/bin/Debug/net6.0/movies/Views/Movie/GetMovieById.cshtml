@@ -161,22 +161,22 @@
                             </ul>
                         </li>
                         <li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							Genres <i class="fa fa-angle-down" aria-hidden="true"></i>
-							</a>
+                            <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
+                                Genres <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
 
-							
-							@*	 <label asp-for="@item.GenreName"></label>
+
+                            @*	 <label asp-for="@item.GenreName"></label>
                             <select class="form-control text-primary" id="genres" asp-for="@item.">
-							
-                           
-                                <option selected disabled><------></></option>
-                                @foreach (var genres in (IEnumerable<AddMovieViewModel>)this.ViewData["genres"])
-                                {
-                                    <option value="@genres.GenreName">@genres.GenreName</option>
-                                }
+
+
+                            <option selected disabled><------></></option>
+                            @foreach (var genres in (IEnumerable<AddMovieViewModel>)this.ViewData["genres"])
+                            {
+                            <option value="@genres.GenreName">@genres.GenreName</option>
+                            }
                             </select>*@
-						</li>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav flex-child-menu menu-right">
                         <li class="loginLink"><a href="#">LOG In</a></li>
