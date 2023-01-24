@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WwwGiFR5J0ExV2Wcq2wHKqkIHJTqxzbRvEYgARIoVXU=",
+  "Hash": "tZ1EPAYodSA8qYk8cvQxYTkhzECext4VLMC0mT67RTA=",
   "Source": "Movies",
   "BasePath": "_content/Movies",
   "Mode": "Default",
@@ -1445,40 +1445,6 @@
       "OriginalItemSpec": "wwwroot\\images\\fancybox_sprite@2x.png"
     },
     {
-      "Identity": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\images\\logo1.png",
-      "SourceId": "Movies",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\",
-      "BasePath": "_content/Movies",
-      "RelativePath": "images/logo1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo1.png"
-    },
-    {
-      "Identity": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\images\\logo2.png",
-      "SourceId": "Movies",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\",
-      "BasePath": "_content/Movies",
-      "RelativePath": "images/logo2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo2.png"
-    },
-    {
       "Identity": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\images\\nivo\\close.png",
       "SourceId": "Movies",
       "SourceType": "Discovered",
@@ -1613,6 +1579,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\nivo\\prev@2x.png"
+    },
+    {
+      "Identity": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\images\\unnamed.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/unnamed.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\unnamed.png"
     },
     {
       "Identity": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies\\wwwroot\\images\\uploads\\ads1.png",

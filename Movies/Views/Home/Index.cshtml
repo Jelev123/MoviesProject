@@ -36,7 +36,7 @@
 <body>
 <!--preloading-->
 <div id="preloader">
-	<img class="logo" src="images/logo1.png" alt="" width="119" height="58">
+	<img class="logo" src="/images/unnamed.png" alt="" width="119" height="58">
 	<div id="status">
 		<span></span>
 		<span></span>
@@ -130,7 +130,7 @@
 							<span></span>
 						</div>
 					</div>
-					<a href="index-2.html"><img class="logo" src="images/logo1.png" alt="" width="119" height="58"></a>
+					<a asp-action="Index" asp-controller="Home"><img class="logo" src="/images//unnamed.png" alt="" width="119" height="58"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
@@ -157,35 +157,20 @@
 						</li>
 						<li class="dropdown first">
 							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							celebrities <i class="fa fa-angle-down" aria-hidden="true"></i>
+							Genres <i class="fa fa-angle-down" aria-hidden="true"></i>
 							</a>
-							<ul class="dropdown-menu level1">
-								<li><a href="celebritygrid01.html">celebrity grid 01</a></li>
-								<li><a href="celebritygrid02.html">celebrity grid 02 </a></li>
-								<li><a href="celebritylist.html">celebrity list</a></li>
-								<li class="it-last"><a href="celebritysingle.html">celebrity single</a></li>
-							</ul>
-						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							news <i class="fa fa-angle-down" aria-hidden="true"></i>
-							</a>
-							<ul class="dropdown-menu level1">
-								<li><a href="bloglist.html">blog List</a></li>
-								<li><a href="bloggrid.html">blog Grid</a></li>
-								<li class="it-last"><a href="blogdetail.html">blog Detail</a></li>
-							</ul>
-						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							community <i class="fa fa-angle-down" aria-hidden="true"></i>
-							</a>
-							<ul class="dropdown-menu level1">
-								<li><a href="userfavoritegrid.html">user favorite grid</a></li>
-								<li><a href="userfavoritelist.html">user favorite list</a></li>
-								<li><a href="userprofile.html">user profile</a></li>
-								<li class="it-last"><a href="userrate.html">user rate</a></li>
-							</ul>
+
+							
+							@*	 <label asp-for="@item.GenreName"></label>
+                            <select class="form-control text-primary" id="genres" asp-for="@item.">
+							
+                           
+                                <option selected disabled><------></></option>
+                                @foreach (var genres in (IEnumerable<AddMovieViewModel>)this.ViewData["genres"])
+                                {
+                                    <option value="@genres.GenreName">@genres.GenreName</option>
+                                }
+                            </select>*@
 						</li>
 					</ul>
 					<ul class="nav navbar-nav flex-child-menu menu-right">
@@ -197,7 +182,6 @@
 								<a asp-action="AddMovie" asp-controller="Movie">Add Movie</a>
 							</ul>
 						</li>                
-						<li><a href="#">Help</a></li>
 						<li class="loginLink"><a href="#">LOG In</a></li>
 						<li class="btn signupLink"><a href="#">sign up</a></li>
 					</ul>
@@ -243,7 +227,7 @@
 		<div class="row ipad-width">
 			<div class="col-md-8">
 				<div class="title-hd">
-					<h2>in theater</h2>
+					<h2>Most Popular</h2>
 					<a href="#" class="viewall">View all <i class="ion-ios-arrow-right"></i></a>
 				</div>
 				<div class="tabs">
@@ -637,7 +621,7 @@
 												<img src="images/uploads/mv-item1.jpg" alt="" width="185" height="284">
 											</div>
 											<div class="hvr-inner">
-												<a  href="moviesingle.html"> Read more <i class="ion-android-arrow-dropright"></i> </a>
+												<a  href="/moviesingle.cshtml"> Read more <i class="ion-android-arrow-dropright"></i> </a>
 											</div>
 											<div class="title-in">
 												<h6><a href="#">Interstellar</a></h6>
@@ -1163,7 +1147,7 @@
 	<div class="container">
 		<div class="flex-parent-ft">
 			<div class="flex-child-ft item1">
-				 <a href="index-2.html"><img class="logo" src="images/logo1.png" alt=""></a>
+				 <a href="index-2.html"><img class="logo" src="images/unnamed.png" alt=""></a>
 				 <p>5th Avenue st, manhattan<br>
 				New York, NY 10001</p>
 				<p>Call us: <a href="#">(+01) 202 342 6789</a></p>

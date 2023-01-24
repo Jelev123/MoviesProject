@@ -1,6 +1,7 @@
 ﻿namespace Movies.Controllers.Movie
 {
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Rendering;
     using Movies.Core.Contract.Genre;
     using Movies.Core.Contract.Movie;
     using Movies.Core.ViewModels.Genre;
@@ -51,6 +52,12 @@
         public IActionResult GetMovieById(int id)
         {
             var movie = this.movieService.GetMovieById(id);
+            return this.View(movie);
+        }
+
+        public IActionResult AllMovieByGenre(int genreId)
+        {
+            var movie = this.movieService.AllMovieByGenre(genreId);
             return this.View(movie);
         }
     }

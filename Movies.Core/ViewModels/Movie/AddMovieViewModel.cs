@@ -27,12 +27,7 @@
 
         public int VideoId { get; set; }
 
-
         public List<AddVideoViewModel> Video { get; set; }
-
-        public List<IFormFile> VideoFiles { get; set; }
-
-        public List<IFormFile> MovieSubs { get; set; }
 
         public List<VideoGalleryModel> Gallery { get; set; }
     }

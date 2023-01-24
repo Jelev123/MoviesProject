@@ -49,6 +49,7 @@
             data.SaveChanges();
             return Task.CompletedTask;
         }
+
         public IEnumerable<AddMovieViewModel> AllMovie()
         {
             var all = this.data.Movies
@@ -64,6 +65,35 @@
                     CoverPhoto = s.CoverPhoto,
                     Year = s.Year,
                 });
+
+            return all;
+        }
+
+        public IEnumerable<AddMovieViewModel> AllMovieByGenre(int genreId)
+        {
+            var all = this.data.Movies
+                 .Where(s => s.GenreId == genreId)
+                 .Select(s => new AddMovieViewModel
+                 {
+                     MovieId = s.MovieId,
+                     MovieName = s.MovieName,
+                     GenreId = s.GenreId,
+                     GenreName = s.Genre.GenreName,
+                     Actor = s.Actor,
+                     Country = s.Country,
+                     CoverPhoto = s.CoverPhoto,
+                     Year = s.Year,
+                     Director = s.Director,
+                     Gallery = s.Videos
+                     .Select(s => new VideoGalleryModel
+                     {
+                         VideoName = s.VideoName,
+                         MovieVideo = s.MovieVideo,
+                         MovieId = s.MovieId,
+                         MovieSubs = s.MovieSubs,
+                         CoverPhoto = s.Movie.CoverPhoto,
+                     }).ToList()
+                 });
 
             return all;
         }

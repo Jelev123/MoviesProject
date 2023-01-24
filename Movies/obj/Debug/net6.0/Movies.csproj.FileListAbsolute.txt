@@ -367,8 +367,6 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\w
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_overlay.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_sprite.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_sprite@2x.png
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\logo1.png
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\logo2.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\close.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\close@2x.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\loading.gif
@@ -570,3 +568,4 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\V
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\index-2.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\AddMovieOld.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E01.HDTV.XviD-0TV.mp4
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\unnamed.png
