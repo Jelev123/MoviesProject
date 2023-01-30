@@ -133,6 +133,24 @@ build_metadata.AdditionalFiles.XamlRuntime =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcUGxheVZpZGVvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/SearchMovieByGenre.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\SearchMovieByGenre.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Movie\SearchMovieByGenre.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2VhcmNoTW92aWVCeUdlbnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Search/SearchMovie.cshtml]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Search\SearchMovie.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Search\SearchMovie.cshtml
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaE1vdmllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 

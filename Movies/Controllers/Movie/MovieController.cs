@@ -1,9 +1,11 @@
 ﻿namespace Movies.Controllers.Movie
 {
+    using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Movies.Core.Contract.Genre;
     using Movies.Core.Contract.Movie;
+    using Movies.Core.Contract.Search;
     using Movies.Core.ViewModels.Genre;
     using Movies.Core.ViewModels.Movie;
     using Movies.Infrastructure.Data;
@@ -12,15 +14,17 @@
     {
         private readonly IMovieService movieService;
         private readonly IGenreService genreService;
+        private readonly ISearchService searchService;
         private readonly IWebHostEnvironment environment;
         private readonly ApplicationDbContext data;
 
-        public MovieController(IMovieService movieService, IWebHostEnvironment environment, ApplicationDbContext data, IGenreService genreService)
+        public MovieController(IMovieService movieService, IWebHostEnvironment environment, ApplicationDbContext data, IGenreService genreService, ISearchService searchService)
         {
             this.movieService = movieService;
             this.environment = environment;
             this.data = data;
             this.genreService = genreService;
+            this.searchService = searchService;
         }
 
 
@@ -55,10 +59,28 @@
             return this.View(movie);
         }
 
-        public IActionResult AllMovieByGenre(int genreId)
+        public IActionResult SearchMovieByGenre(string genreName)
         {
-            var movie = this.movieService.AllMovieByGenre(genreId);
-            return this.View(movie);
+
+          
+
+            var genres = this.genreService.AllGenres<AllGenreViewModel>();
+
+            var genreNames = genres.Select(s => s.GenreName).ToString();
+            //this.ViewData["genres"] = genreName;
+            var searchedMovie = this.searchService.SearchMovie(genreName);
+
+            
+
+            
+            ViewBag.genreName = new SelectList(genreName);
+
+
+            if (searchedMovie == null)
+            {
+                return this.View(genreName);
+            }
+            return this.View(searchedMovie);
         }
     }
     

@@ -10,7 +10,7 @@
 
         AddMovieViewModel GetMovieById(int id);
 
-        IEnumerable<AddMovieViewModel> AllMovieByGenre(int genreId);
+        IEnumerable<AddMovieViewModel> SearchMovieByGenre(int genreId);
 
     }
 }

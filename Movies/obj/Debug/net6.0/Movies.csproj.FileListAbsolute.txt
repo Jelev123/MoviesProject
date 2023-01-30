@@ -573,3 +573,5 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\w
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E10.HDTV.XviD-0TV.avi
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E11.HDTV.XviD-0TV.avi
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E12.HDTV.XviD-0TV.avi
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovieByGenre.cshtml
+C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Search\SearchMovie.cshtml

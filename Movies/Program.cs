@@ -4,11 +4,14 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Movies.Core.Contract.Genre;
 using Movies.Core.Contract.Movie;
+using Movies.Core.Contract.Search;
 using Movies.Core.Contracts.Video;
 using Movies.Core.Service.Movie;
 using Movies.Core.Service.Video;
 using Movies.Core.Services.Genre;
+using Movies.Core.Services.Search;
 using Movies.Infrastructure.Data;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +28,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IMovieService, MovieService>();
 builder.Services.AddTransient<IVideoService, VideoService>();
 builder.Services.AddTransient<IGenreService, GenreService>();
+builder.Services.AddTransient<ISearchService, SearchService>();
 
 
     var app = builder.Build();
@@ -67,3 +71,16 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+public static class SessionExtensions
+{
+    public static void Set<T>(this ISession session, string key, T value)
+    {
+        session.SetString(key, JsonSerializer.Serialize(value));
+    }
+
+    public static T Get<T>(this ISession session, string key)
+    {
+        var value = session.GetString(key);
+        return value == null ? default : JsonSerializer.Deserialize<T>(value);
+    }
+}

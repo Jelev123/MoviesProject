@@ -69,7 +69,7 @@
             return all;
         }
 
-        public IEnumerable<AddMovieViewModel> AllMovieByGenre(int genreId)
+        public IEnumerable<AddMovieViewModel> SearchMovieByGenre(int genreId)
         {
             var all = this.data.Movies
                  .Where(s => s.GenreId == genreId)

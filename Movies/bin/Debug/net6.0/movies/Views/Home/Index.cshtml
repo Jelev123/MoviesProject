@@ -155,14 +155,14 @@
 								<li class="it-last"><a href="seriessingle.html">Series single</a></li>
 							</ul>
 						</li>
-						<li class="dropdown first">
+						@*<li class="dropdown first">
 							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
 							Genres <i class="fa fa-angle-down" aria-hidden="true"></i>
 							</a>
 
 							
-							@*	 <label asp-for="@item.GenreName"></label>
-                            <select class="form-control text-primary" id="genres" asp-for="@item.">
+								 <label asp-for="@item.GenreName"></label>
+                            <select class="form-control text-primary" id="genres" asp-for="@Model">
 							
                            
                                 <option selected disabled><------></></option>
@@ -170,8 +170,10 @@
                                 {
                                     <option value="@genres.GenreName">@genres.GenreName</option>
                                 }
-                            </select>*@
-						</li>
+                            </select>
+						</li>*@
+                  
+                   
 					</ul>
 					<ul class="nav navbar-nav flex-child-menu menu-right">
 						<li class="dropdown first">
@@ -192,7 +194,31 @@
 	
 
 		<!-- top search form -->
+			<div class="col-lg-8 col-md-7 col-12">
+				@using (Html.BeginForm("SearchMovieByGenre", "Movie", FormMethod.Get))
+				{
+					<div class="search-bar-top">
+						<div class="search-bar">
+							<div class="col-md-4">
+								@Html.DropDownList("genreName")
+							</div>
+							<div class="row">
+								<div class="col-md-8">
+									<div class="form-group">
+										<div class="input-group">
+											<div class="input-group-btn">
+												<button class="btn btn-primary" value="Search" type="submit"><i class="ti-search"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				}
+			</div>
 		<div class="top-search" id="movies-search-bar-holder">
+
 				<input type="text" id="movies-search-bar" placeholder="Search for a movie, TV Show or celebrity that you are looking for">
 		</div>
 	</div>
