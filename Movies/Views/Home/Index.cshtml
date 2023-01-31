@@ -224,12 +224,12 @@
 			</nav>
 
 			<!-- top search form -->
-			<div class="top-search" id="movies-search-bar">
+			<div class="top-search" >
 				<select>
 					<option value="united">TV show</option>
 					<option value="saab">Others</option>
 				</select>
-				<input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for">
+				<input type="text" id="movies-search-bar" placeholder="Search for a movie, TV Show or celebrity that you are looking for">
 			</div>
 		</div>
 	</header>
@@ -240,11 +240,6 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="hero-ct">
-						<h1> movie listing - grid</h1>
-						<ul class="breadcumb">
-							<li class="active"><a href="#">Home</a></li>
-							<li> <span class="ion-ios-arrow-right"></span> movie listing</li>
-						</ul>
 					</div>
 				</div>
 			</div>
@@ -255,7 +250,7 @@
 			<div class="row ipad-width">
 				<div class="col-md-8 col-sm-12 col-xs-12">
 					<div class="topbar-filter">
-						<p>Found <span>1,608 movies</span> in total</p>
+						<p>Found <span>@Model.Count() movies</span> in total</p>
 						<label>Sort by:</label>
 						<select>
 							<option value="popularity">Popularity Descending</option>
@@ -279,7 +274,7 @@
 								<a asp-action="GetMovieById" asp-controller="Movie" asp-route-id="@item.MovieId"> Watch <i class="ion-android-arrow-dropright"></i> </a>
 							</div>
 							<div class="mv-item-infor">
-								<h6><a>@item.MovieName</a></h6>
+								<p><a>@item.MovieName</a></p>
 								@*<p class="rate"><i class="ion-android-star"></i><span>8.1</span> /10</p>*@
 							</div>
 						</div>
@@ -455,11 +450,18 @@
     $('#sort').change(function () {
         $('#order-form').submit();
     });
-    $('#movies-search-bar').on("change paste keyup", function () {
-		$('.mv-item-infor').show();
+
+    $('#movies-search-bar').on("change paste keyup", function () 
+	{
+
+		$('.movie-item-style-2').show();
+
         let searchValue = $('#movies-search-bar').val();
-		for (let name of $('.mv-item-infor')) {
-            let movieName = $($(name).children()[1]).text();
+
+		for (let name of $('.movie-item-style-2')) 
+		{
+            let movieName = $($(name).children()[2]).text();
+
             if (!movieName.toLowerCase().includes(searchValue.toLowerCase())) {
                 $(name).hide();
             }

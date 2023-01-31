@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Core\\Movies.Core.csproj": {}
+    "D:\\Projects\\MoviesProject\\Movies.Core\\Movies.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Core\\Movies.Core.csproj": {
+    "D:\\Projects\\MoviesProject\\Movies.Core\\Movies.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Core\\Movies.Core.csproj",
+        "projectUniqueName": "D:\\Projects\\MoviesProject\\Movies.Core\\Movies.Core.csproj",
         "projectName": "Movies.Core",
-        "projectPath": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Core\\Movies.Core.csproj",
-        "packagesPath": "C:\\Users\\zzhelev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Core\\obj\\",
+        "projectPath": "D:\\Projects\\MoviesProject\\Movies.Core\\Movies.Core.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MoviesProject\\Movies.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zzhelev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj"
+              "D:\\Projects\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj"
               }
             }
           }
@@ -67,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,21 +83,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj": {
+    "D:\\Projects\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj",
         "projectName": "Movies.Infrastructure",
-        "projectPath": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\zzhelev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zzhelev\\Documents\\GitHub\\MoviesProject\\Movies.Infrastructure\\obj\\",
+        "projectPath": "D:\\Projects\\MoviesProject\\Movies.Infrastructure\\Movies.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MoviesProject\\Movies.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zzhelev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,8 +162,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -168,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }

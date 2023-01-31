@@ -4,7 +4,7 @@ build_property.TargetPlatformIdentifier =
 build_property.TargetFramework = net6.0
 build_property.TargetFramework = net6.0
 build_property.ProjectTypeGuidsProperty = 
-build_property.MSBuildProjectFullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Movies.csproj
+build_property.MSBuildProjectFullPath = D:\Projects\MoviesProject\Movies\Movies.csproj
 build_property.RootNamespace = Movies
 build_property.RootNamespace = Movies
 build_property.RootNamespace = Movies
@@ -37,7 +37,7 @@ build_property.IncludeXamlNamespacesProperty = xamarin,not_win,legacy
 build_property.XamlGeneratorAnalyzerSuppressionsProperty = nventive.Usage-NV0056,nventive.Usage-NV0058,nventive.Usage-NV1003,nventive.Usage-NV0085,nventive.Usage-NV2001,nventive.Usage-NV2003,nventive.Usage-NV2004,nventive.Usage-NV2005,csharp-618 // Ignore obsolete members warnings,csharp-105 // Ignore duplicate namespaces,csharp-1591 // Ignore missing XML comment warnings,csharp-CS8669 // Ignore annotation for nullable reference types,dotnet-CA1001
 build_property.LegacyTypesProperty = 
 build_property.UnoXamlResourcesTrimming = 
-build_property.BaseIntermediateOutputPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\obj\
+build_property.BaseIntermediateOutputPath = D:\Projects\MoviesProject\Movies\obj\
 build_property.AssemblyName = Movies
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -45,179 +45,179 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.ProjectDir = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\
+build_property.ProjectDir = D:\Projects\MoviesProject\Movies\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies
+build_property.MSBuildProjectDirectory = D:\Projects\MoviesProject\Movies
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/Projects/MoviesProject/Movies/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Areas\Identity\Pages\_ViewStart.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Areas\Identity\Pages\_ViewStart.cshtml
 build_metadata.AdditionalFiles.Identity = Areas\Identity\Pages\_ViewStart.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Home/Index.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Home\Index.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Home\Index.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Home\Index.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Home/Privacy.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Home\Privacy.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Home\Privacy.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Home\Privacy.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/AddMovie.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/AddMovie.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\AddMovie.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\AddMovie.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\AddMovie.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/AddMovieOld.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/AddMovieOld.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\AddMovieOld.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\AddMovieOld.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\AddMovieOld.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWVPbGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/AllMovie.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/AllMovie.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\AllMovie.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\AllMovie.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\AllMovie.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWxsTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/GetMovieById.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/GetMovieById.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\GetMovieById.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\GetMovieById.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\GetMovieById.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcR2V0TW92aWVCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/GetMovieByIdOld.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/GetMovieByIdOld.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\GetMovieByIdOld.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\GetMovieByIdOld.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\GetMovieByIdOld.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcR2V0TW92aWVCeUlkT2xkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/PlayVideo.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/PlayVideo.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\PlayVideo.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\PlayVideo.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\PlayVideo.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcUGxheVZpZGVvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Movie/SearchMovieByGenre.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/SearchMovieByGenre.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Movie\SearchMovieByGenre.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\SearchMovieByGenre.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Movie\SearchMovieByGenre.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2VhcmNoTW92aWVCeUdlbnJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Search/SearchMovie.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Search/SearchMovie.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Search\SearchMovie.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Search\SearchMovie.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Search\SearchMovie.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFNlYXJjaE1vdmllLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Shared/Error.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Shared\Error.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\Error.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Shared\Error.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Shared/_LoginPartial.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Shared\_LoginPartial.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\_LoginPartial.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Shared\_LoginPartial.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Shared\_ValidationScriptsPartial.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\_ValidationScriptsPartial.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Shared\_ValidationScriptsPartial.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/_ViewImports.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\_ViewImports.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\_ViewImports.cshtml
 build_metadata.AdditionalFiles.Identity = Views\_ViewImports.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/_ViewStart.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\_ViewStart.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\_ViewStart.cshtml
 build_metadata.AdditionalFiles.Identity = Views\_ViewStart.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/wwwroot/index-2.cshtml]
+[D:/Projects/MoviesProject/Movies/wwwroot/index-2.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\wwwroot\index-2.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\wwwroot\index-2.cshtml
 build_metadata.AdditionalFiles.Identity = wwwroot\index-2.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxpbmRleC0yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/wwwroot/moviesingle.cshtml]
+[D:/Projects/MoviesProject/Movies/wwwroot/moviesingle.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\wwwroot\moviesingle.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\wwwroot\moviesingle.cshtml
 build_metadata.AdditionalFiles.Identity = wwwroot\moviesingle.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxtb3ZpZXNpbmdsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zzhelev/Documents/GitHub/MoviesProject/Movies/Views/Shared/_Layout.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\Views\Shared\_Layout.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Shared\_Layout.cshtml
 build_metadata.AdditionalFiles.Identity = Views\Shared\_Layout.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

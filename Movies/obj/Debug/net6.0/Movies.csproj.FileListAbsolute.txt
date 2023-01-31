@@ -97,93 +97,15 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_LoginPart
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_ValidationScriptsPartial.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\_ViewImports.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\_ViewStart.cshtml
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\MY.css
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\site.css
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\favicon.ico
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\site.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\bootstrap\LICENSE
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\additional-methods.js
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery-validation\LICENSE.md
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\dist\jquery.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\dist\jquery.min.js
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\dist\jquery.min.map
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\lib\jquery\LICENSE.txt
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Picures\MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E01.TOW.All.Begins.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E02.TOW.The.Sonogram.at.the.End.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E03.TOW.The.Thumb.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E04.TOW.George.Stephanopoulos.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E05.TOW.The.East.German.Laundry.Detergent.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E06.TOW.The.Butt.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E07.TOW.The.Blackout.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E08.TOW.Nana.Dies.Twice.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E09.TOW.The.Underdog.Gets.Away.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E10.TOW.The.Monkey.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E11.TOW.Mrs.Bing.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E12.TOW.The.Dozen.Lasagnes.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E13.TOW.The.Boobies.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E14.TOW.The.Candy.Hearts.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E15.TOW.The.Stoned.Guy.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E16-17.TOW.The.Two.Parts.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E18.TOW.All.The.Poker.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E19.TOW.The.Monkey.Gets.Away.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E20.TOW.The.Evil.Orthodontist.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E21.TOW.The.Fake.Monica.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E22.TOW.The.Ick.Factor.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E23.TOW.The.Birth.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\[SubtitleTools.com] Friends.S01E24.TOW.Rachel.Finds.Out.UNCUT.DVDrip.XviD-SAiNTS.vtt
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Friends.S01E01.mp4
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Friends.S01E02.mp4
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\web.config
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\appsettings.Development.json
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\appsettings.json
@@ -202,7 +124,6 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.dll
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.Xaml.dll
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.dll
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\Transformers.2007.DVDRip.XviD-ViEW.avi
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\PlayVideo.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\_ViewStart.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Home\Privacy.cshtml
@@ -562,3 +483,235 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\V
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\unnamed.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovieByGenre.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Search\SearchMovie.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\AddMovieOld.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\GetMovieByIdOld.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovieByGenre.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Search\SearchMovie.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\ajax-loader.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slick-2.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slick-3.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slick-4.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slick.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slickd41d.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\plugins.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\style.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\fonts\fontawesome-webfont93e3.eot
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\fonts\fontawesome-webfont93e3.svg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\fonts\fontawesome-webfont93e3.ttf
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\fonts\fontawesome-webfont93e3.woff
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\fonts\fontawesome-webfont93e3.woff2
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\fonts\fontawesome-webfontd41d.eot
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\blank.html
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_loading.gif
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_loading@2x.gif
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_overlay.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_sprite.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\fancybox_sprite@2x.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\close.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\close@2x.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\loading.gif
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\loading@2x.gif
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\next.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\next@2x.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\prev.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\nivo\prev@2x.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\unnamed.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ads1.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ads2.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\author.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\author2.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\author3.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\author4.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ava1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ava2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ava3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ava4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog-detail.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog-detail2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog-it1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog-it2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog26.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog27.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blog29.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\bloglist-it1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\bloglist-it2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\bloglist-it3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\bloglist-it4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\bloglist-it5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\bloglist-it6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blogv21.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blogv22.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blogv23.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blogv24.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blogv25.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\blogv29.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cast9.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb21.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb22.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb23.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb24.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb25.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb26.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb27.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb28.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb29.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb8.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceb9.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ceblist8.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cebsingle2.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\celeb-hero-single.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\cm-img.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\drop-icon.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\err-img.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\error-bg.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\film8.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\ft-bg.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\hero-bg.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image1-1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image10.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image101.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image11.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image111.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image12.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image121.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image13.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image131.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image14.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image141.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image15.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image151.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image16.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image161.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image17.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image171.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image18.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image181.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image19.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image191.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image2-1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image20.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image201.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image21.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image211.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image31.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image41.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image51.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image61.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image71.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image8.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image81.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image9.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\image91.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\landing-dark-version.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\landing-light-version.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\movie-single.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it10.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it11.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it12.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it8.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-it9.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item10.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item11.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item12.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item8.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv-item9.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\mv5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\play-vd.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\poster1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\search-bg.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\search-bgsb.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\season.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\series-img.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\slider-bg.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\slider-bg2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\slider1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\slider2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\slider3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\slider4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\sr-single.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\topsearch.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\trailer2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\trailer3.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\trailer4.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\trailer5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\trailer6.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\trailer7.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\user-hero-bg.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\user-img.png
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\userava1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\userava2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\userava3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\userava4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\userava5.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\vd-item1.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\vd-item2.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\vd-item3.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\uploads\vd-item4.jpg
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\index-2.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\custom.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\jquery-3.4.1.min.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\jquery.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\plugins.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\plugins2.js
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\moviesingle.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e01.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e02.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e03.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e04.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e05.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e06.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e07.720p.bluray.x264-reward.vtt
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_VID_20220210_193829.mp4
