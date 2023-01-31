@@ -331,7 +331,6 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\obj\Debug\net6.0\refint\M
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\obj\Debug\net6.0\Movies.pdb
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\obj\Debug\net6.0\Movies.genruntimeconfig.cache
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\obj\Debug\net6.0\ref\Movies.dll
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E01.DSR.XviD-0TV.mp4
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e01.720p.bluray.x264-reward.vtt
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e02.720p.bluray.x264-reward.vtt
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e03.720p.bluray.x264-reward.vtt
@@ -339,13 +338,6 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\w
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e05.720p.bluray.x264-reward.vtt
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e06.720p.bluray.x264-reward.vtt
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e07.720p.bluray.x264-reward.vtt
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E02.DSR.XviD-0TV.mp4
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E03.HDTV.XviD-LOL (1).mp4
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E03.HDTV.XviD-LOL.mp4
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E04.HDTV.XviD-LOL.mp4
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E05.HDTV.XviD-LOL.mp4
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E06.HDTV.XviD-LOL.mp4
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S01E07.HDTV.XviD-LOL.mp4
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\js\jquery-3.4.1.min.js
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\ajax-loader.html
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slick-2.html
@@ -567,11 +559,6 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\w
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\GetMovieByIdOld.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\index-2.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\AddMovieOld.cshtml
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E01.HDTV.XviD-0TV.mp4
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\unnamed.png
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E01.HDTV.XviD-0TV.avi
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E10.HDTV.XviD-0TV.avi
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E11.HDTV.XviD-0TV.avi
-C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_Breaking.Bad.S02E12.HDTV.XviD-0TV.avi
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovieByGenre.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Search\SearchMovie.cshtml
