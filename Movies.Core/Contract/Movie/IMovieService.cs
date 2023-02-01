@@ -6,11 +6,13 @@
     {
         Task AddMovie(AddMovieViewModel addMovie, string imagePath);
 
-        IEnumerable<AddMovieViewModel> AllMovie();
+        IEnumerable<AddMovieViewModel> AllMovie(int page, int itemsPerPage = 100);
 
         AddMovieViewModel GetMovieById(int id);
 
-        IEnumerable<AddMovieViewModel> SearchMovieByGenre(int genreId);
+        IEnumerable<AddMovieViewModel> SearchMovieByGenre(string genreName);
+
+        int GetCount();
 
     }
 }

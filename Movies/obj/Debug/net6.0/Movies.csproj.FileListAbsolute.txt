@@ -715,3 +715,5 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitle
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e06.720p.bluray.x264-reward.vtt
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitles\[SubtitleTools.com] breaking.bad.s01e07.720p.bluray.x264-reward.vtt
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_VID_20220210_193829.mp4
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_PagingPartialView.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_VID_20220214_231944.mp4

@@ -6,6 +6,7 @@
     using Movies.Core.Contract.Genre;
     using Movies.Core.Contract.Movie;
     using Movies.Core.Contract.Search;
+    using Movies.Core.ViewModels;
     using Movies.Core.ViewModels.Genre;
     using Movies.Core.ViewModels.Movie;
     using Movies.Infrastructure.Data;
@@ -47,9 +48,22 @@
             return this.Redirect("/");
         }
 
-        public IActionResult AllMovie()
+        public IActionResult AllMovie(int id = 1)
         {
-           var all = this.movieService.AllMovie();
+
+            var genres = this.genreService.AllGenres<AllGenreViewModel>();
+
+            ViewBag.genreName = new SelectList(genres);
+            const int ItemsPerPage = 1;
+
+            var all = new MovieListViewModel
+            {
+                ItemsPerPage = ItemsPerPage,
+                PageNumber = id,
+                MoviesCount = this.movieService.GetCount(),
+                Movies = this.movieService.AllMovie(id,ItemsPerPage),
+            };
+           
             return this.View(all);
         }
 
@@ -62,19 +76,12 @@
         public IActionResult SearchMovieByGenre(string genreName)
         {
 
-          
-
             var genres = this.genreService.AllGenres<AllGenreViewModel>();
 
+            ViewBag.genreName = new SelectList(genres);
             var genreNames = genres.Select(s => s.GenreName).ToString();
-            //this.ViewData["genres"] = genreName;
+
             var searchedMovie = this.searchService.SearchMovie(genreName);
-
-            
-
-            
-            ViewBag.genreName = new SelectList(genreName);
-
 
             if (searchedMovie == null)
             {

@@ -16,6 +16,7 @@
 
         public IEnumerable<AllGenreViewModel> AllGenres<T>()
         {
+
             var allGenres = this.data.Genres
                 .Select(s => new AllGenreViewModel
                 {

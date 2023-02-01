@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+gCjUyF7Dlr2dFxCAhxLk4N0EE8HWsBwIjmlGkbAcRM=",
+  "Hash": "O3H5L91d0Z5j3o5KIuwStdMjBl4uY7FLqHMyjyUFOZA=",
   "Source": "Movies",
   "BasePath": "_content/Movies",
   "Mode": "Default",
@@ -5081,6 +5081,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Movies\\Videos\\_VID_20220210_193829.mp4"
+    },
+    {
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\Movies\\Videos\\_VID_20220214_231944.mp4",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Movies/Videos/_VID_20220214_231944.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Movies\\Videos\\_VID_20220214_231944.mp4"
     },
     {
       "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\moviesingle.cshtml",

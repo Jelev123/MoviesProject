@@ -18,7 +18,7 @@
 
 		public IEnumerable<SearchViewModel> SearchMovie(string genreName)
 		{
-            var searchedMovive = this.data.Movies
+			var searchedMovive = this.data.Movies
 				.Select(s => new SearchViewModel
 				{
 					MovieName = s.MovieName,
@@ -30,7 +30,8 @@
 					GenreName = s.Genre.GenreName,
 					MovieId = s.MovieId,
 				})
-				.Where(s => s.GenreName.Contains(genreName));
+				.Where(s => s.GenreName.Contains(genreName))
+				.ToList();
 
 			return searchedMovive;
 		}

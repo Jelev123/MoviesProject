@@ -10,6 +10,8 @@
 
         public string GenreName { get; set; }
 
+        public int GenreId { get; set; }
+
         public string Director { get; set; }
 
         public string Actor { get; set; }

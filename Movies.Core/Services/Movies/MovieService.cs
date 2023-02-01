@@ -50,7 +50,7 @@
             return Task.CompletedTask;
         }
 
-        public IEnumerable<AddMovieViewModel> AllMovie()
+        public IEnumerable<AddMovieViewModel> AllMovie(int page, int itemsPerPage = 6)
         {
             var all = this.data.Movies
                 .Select(s => new AddMovieViewModel
@@ -64,15 +64,17 @@
                     Country = s.Country,
                     CoverPhoto = s.CoverPhoto,
                     Year = s.Year,
-                });
+                })
+                .OrderBy(s => s.MovieName)
+                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage);
 
             return all;
         }
 
-        public IEnumerable<AddMovieViewModel> SearchMovieByGenre(int genreId)
+        public IEnumerable<AddMovieViewModel> SearchMovieByGenre(string genreName)
         {
             var all = this.data.Movies
-                 .Where(s => s.GenreId == genreId)
+                 .Where(s => s.Genre.GenreName == genreName)
                  .Select(s => new AddMovieViewModel
                  {
                      MovieId = s.MovieId,
@@ -126,6 +128,11 @@
 
 
             return movie;
+        }
+
+        public int GetCount()
+        {
+           return this.data.Movies.Count();
         }
     }
 }
