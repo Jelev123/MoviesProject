@@ -8,6 +8,7 @@
     using Movies.Core.Contracts.Video;
     using System.Collections.Generic;
     using Movies.Core.ViewModels.Video;
+    using Movies.Core.ViewModels.Home;
 
     public class MovieService : IMovieService
     {
@@ -66,7 +67,8 @@
                     Year = s.Year,
                 })
                 .OrderBy(s => s.MovieName)
-                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage);
+                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
+                .ToList();
 
             return all;
         }
@@ -133,6 +135,21 @@
         public int GetCount()
         {
            return this.data.Movies.Count();
+        }
+
+        public IEnumerable<IndexRandomViewModel> RandomMovies(int count)
+        {
+            return this.data.Movies
+                 .OrderBy(s => Guid.NewGuid())
+                .Select(s => new IndexRandomViewModel
+                {
+                    MovieName = s.MovieName,
+                    MovieId = s.MovieId,
+                    GenreName = s.Genre.GenreName,
+                    CoverPhoto = s.CoverPhoto,
+                    Country = s.Country
+                })
+                .Take(count);
         }
     }
 }

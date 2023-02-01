@@ -50,11 +50,18 @@
 
         public IActionResult AllMovie(int id = 1)
         {
-
             var genres = this.genreService.AllGenres<AllGenreViewModel>();
 
-            ViewBag.genreName = new SelectList(genres);
-            const int ItemsPerPage = 1;
+            var genreNames = genres.Select(s => s.GenreName);
+
+            ViewBag.genreName = new SelectList(genreNames);
+
+            if (id <= 0)
+            {
+                return this.NotFound();
+            }
+
+            const int ItemsPerPage = 10;
 
             var all = new MovieListViewModel
             {

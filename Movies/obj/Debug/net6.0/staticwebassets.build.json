@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O3H5L91d0Z5j3o5KIuwStdMjBl4uY7FLqHMyjyUFOZA=",
+  "Hash": "tlt4+E53MYz4UZt+cqDIMF9x8fUAqX1fUjpb/ItOEd4=",
   "Source": "Movies",
   "BasePath": "_content/Movies",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\ajax-loader.html"
+    },
+    {
+      "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "D:\\Projects\\MoviesProject\\Movies\\wwwroot\\css\\fonts\\slick.html",

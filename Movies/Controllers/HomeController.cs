@@ -7,6 +7,7 @@
     using Movies.Core.Contract.Search;
     using Movies.Core.ViewModels;
     using Movies.Core.ViewModels.Genre;
+    using Movies.Core.ViewModels.Home;
     using Movies.Core.ViewModels.Movie;
     using Movies.Models;
     using System.Diagnostics;
@@ -28,19 +29,19 @@
 
         public IActionResult Index()
         {
+            var genres = this.genreService.AllGenres<AllGenreViewModel>();
+            var genreNames = genres.Select(s => s.GenreName);
+            ViewBag.genreName = new SelectList(genreNames);
 
-            //var genres = this.genreService.AllGenres<AllGenreViewModel>();
+            const int Random = 10;
 
-            //var genreName = genres.Select(s => s.GenreName);
 
-            //ViewBag.genreName = new SelectList(genreName);
+            var movies = new HomeViewModel
+            {
+                RandomMovies = this.movieService.RandomMovies(Random)
+            };
 
-            //this.ViewData["genres"] = genres.Select(s => new AddMovieViewModel
-            //{
-            //    GenreName = s.GenreName,
-            //}).ToList();
-
-            return this.View();
+            return this.View(movies);
         }
 
         public IActionResult Privacy()

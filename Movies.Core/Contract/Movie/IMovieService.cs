@@ -1,5 +1,6 @@
 ﻿namespace Movies.Core.Contract.Movie
 {
+    using Movies.Core.ViewModels.Home;
     using Movies.Core.ViewModels.Movie;
 
     public interface IMovieService
@@ -11,6 +12,8 @@
         AddMovieViewModel GetMovieById(int id);
 
         IEnumerable<AddMovieViewModel> SearchMovieByGenre(string genreName);
+
+        IEnumerable<IndexRandomViewModel> RandomMovies(int count);
 
         int GetCount();
 

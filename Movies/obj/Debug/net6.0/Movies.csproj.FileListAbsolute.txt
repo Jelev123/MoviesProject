@@ -717,3 +717,5 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Subtitle
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_VID_20220210_193829.mp4
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_PagingPartialView.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\Movies\Videos\_VID_20220214_231944.mp4
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\bootstrap.min.css
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Shared\_HeaderPartialView.cshtml
