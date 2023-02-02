@@ -80,15 +80,21 @@
             return this.View(movie);
         }
 
-        public IActionResult SearchMovieByGenre(string genreName)
+        public IActionResult SearchMovieByGenre(string genreName, string movieName)
         {
 
-            var genres = this.genreService.AllGenres<AllGenreViewModel>();
+            if (genreName == null && movieName == null)
+            {
+                return this.RedirectToAction("Index", "Home");
+            }
 
-            ViewBag.genreName = new SelectList(genres);
-            var genreNames = genres.Select(s => s.GenreName).ToString();
+            if (movieName != null)
+            {
+                genreName = null;
 
-            var searchedMovie = this.searchService.SearchMovie(genreName);
+            }
+            this.ViewData["searchMovie"] = movieName;
+            var searchedMovie = this.searchService.SearchMovie(genreName, movieName);
 
             if (searchedMovie == null)
             {

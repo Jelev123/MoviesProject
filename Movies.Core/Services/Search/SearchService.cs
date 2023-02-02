@@ -1,7 +1,8 @@
 ﻿namespace Movies.Core.Services.Search
 {
 	using Microsoft.AspNetCore.Http;
-	using Movies.Core.Contract.Search;
+    using Movies.Core.Contract.Movie;
+    using Movies.Core.Contract.Search;
 	using Movies.Core.ViewModels.Search;
 	using Movies.Infrastructure.Data;
 	using System.Collections.Generic;
@@ -10,13 +11,15 @@
 	{
 
 		private readonly ApplicationDbContext data;
+		private readonly IMovieService movieService;
 
-		public SearchService(ApplicationDbContext data)
-		{
-			this.data = data;
-		}
+        public SearchService(ApplicationDbContext data, IMovieService movieService)
+        {
+            this.data = data;
+            this.movieService = movieService;
+        }
 
-		public IEnumerable<SearchViewModel> SearchMovie(string genreName)
+        public IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName)
 		{
 			var searchedMovive = this.data.Movies
 				.Select(s => new SearchViewModel
@@ -30,8 +33,7 @@
 					GenreName = s.Genre.GenreName,
 					MovieId = s.MovieId,
 				})
-				.Where(s => s.GenreName.Contains(genreName))
-				.ToList();
+				.Where(s => (s.GenreName.Contains(genreName)) || (s.MovieName.Contains(movieName)));
 
 			return searchedMovive;
 		}

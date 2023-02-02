@@ -73,35 +73,6 @@
             return all;
         }
 
-        public IEnumerable<AddMovieViewModel> SearchMovieByGenre(string genreName)
-        {
-            var all = this.data.Movies
-                 .Where(s => s.Genre.GenreName == genreName)
-                 .Select(s => new AddMovieViewModel
-                 {
-                     MovieId = s.MovieId,
-                     MovieName = s.MovieName,
-                     GenreId = s.GenreId,
-                     GenreName = s.Genre.GenreName,
-                     Actor = s.Actor,
-                     Country = s.Country,
-                     CoverPhoto = s.CoverPhoto,
-                     Year = s.Year,
-                     Director = s.Director,
-                     Gallery = s.Videos
-                     .Select(s => new VideoGalleryModel
-                     {
-                         VideoName = s.VideoName,
-                         MovieVideo = s.MovieVideo,
-                         MovieId = s.MovieId,
-                         MovieSubs = s.MovieSubs,
-                         CoverPhoto = s.Movie.CoverPhoto,
-                     }).ToList()
-                 });
-
-            return all;
-        }
-
         public AddMovieViewModel GetMovieById(int id)
         {
             var movie = this.data.Movies
@@ -127,7 +98,6 @@
                         CoverPhoto = s.Movie.CoverPhoto,
                     }).ToList()
                 }).FirstOrDefault();
-
 
             return movie;
         }
