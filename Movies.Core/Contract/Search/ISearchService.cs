@@ -4,6 +4,6 @@
 
     public interface ISearchService
 	{
-        IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName);
+        IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName, int page, int itemsPerPage = 6);
     }
 }

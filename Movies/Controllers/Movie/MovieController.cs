@@ -80,7 +80,7 @@
             return this.View(movie);
         }
 
-        public IActionResult SearchMovieByGenre(string genreName, string movieName)
+        public IActionResult SearchMovieByGenre(string genreName, string movieName, int id = 1)
         {
 
             if (genreName == null && movieName == null)
@@ -93,14 +93,30 @@
                 genreName = null;
 
             }
-            this.ViewData["searchMovie"] = movieName;
-            var searchedMovie = this.searchService.SearchMovie(genreName, movieName);
 
-            if (searchedMovie == null)
+
+            if (id <= 0)
             {
-                return this.View(genreName);
+                return this.NotFound();
             }
-            return this.View(searchedMovie);
+
+            const int ItemsPerPage = 10;
+
+            var searchedMovies = new MovieListViewModel
+            {
+                ItemsPerPage = ItemsPerPage,
+                PageNumber = id,
+                MoviesCount = this.movieService.GetCount(),
+                SearchedMovies = this.searchService.SearchMovie(genreName, movieName, id, ItemsPerPage)
+            };
+
+
+            var genres = this.genreService.AllGenres<AllGenreViewModel>();
+            var genreNames = genres.Select(s => s.GenreName);
+            ViewBag.genreName = new SelectList(genreNames);
+            this.ViewData["searchMovie"] = movieName;
+          
+            return this.View(searchedMovies);
         }
     }
     

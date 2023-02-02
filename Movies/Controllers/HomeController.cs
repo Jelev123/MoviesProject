@@ -30,11 +30,8 @@
         public IActionResult Index()
         {
             var genres = this.genreService.AllGenres<AllGenreViewModel>();
-            var moviess = this.movieService.AllMovie(1,10);
             var genreNames = genres.Select(s => s.GenreName);
             ViewBag.genreName = new SelectList(genreNames);
-            ViewBag.allMovie = new SelectList(moviess);
-
 
             const int Random = 10;
             var movies = new HomeViewModel

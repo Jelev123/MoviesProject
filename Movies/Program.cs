@@ -12,6 +12,7 @@ using Movies.Core.Services.Genre;
 using Movies.Core.Services.Search;
 using Movies.Infrastructure.Data;
 using System.Text.Json;
+using Movies.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

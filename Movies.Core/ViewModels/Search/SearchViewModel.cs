@@ -1,6 +1,6 @@
 ﻿namespace Movies.Core.ViewModels.Search
 {
-	public class SearchViewModel
+	public class SearchViewModel : PagingViewModel
 	{
 		public int Id { get; set; }
 

@@ -19,7 +19,7 @@
             this.movieService = movieService;
         }
 
-        public IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName)
+        public IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName, int page, int itemsPerPage = 6)
 		{
 			var searchedMovive = this.data.Movies
 				.Select(s => new SearchViewModel

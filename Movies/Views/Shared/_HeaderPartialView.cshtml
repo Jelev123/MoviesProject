@@ -20,14 +20,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="dropdown first">
-                        <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown">
-                            Home <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <a class="btn btn-default" asp-action="Index" asp-controller="Home">
+                            Home
                         </a>
-                        <ul class="dropdown-menu level1">
-                            <li><a href="index-2.html">Home 01</a></li>
-                            <li><a href="homev2.html">Home 02</a></li>
-                            <li><a href="homev3.html">Home 03</a></li>
-                        </ul>
+                        
                     </li>
                     <li class="dropdown first">
                         <a class="btn btn-default" asp-action="AllMovie" asp-controller="Movie">
@@ -46,7 +42,7 @@
                         <li class="it-last"><a href="seriessingle.html">Series single</a></li>
                         </ul>*@
                     </li>
-                    <li class="dropdown first">
+                   @* <li class="dropdown first">
                         <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
                             celebrities <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </a>
@@ -77,10 +73,10 @@
                             <li><a href="userprofile.html">user profile</a></li>
                             <li class="it-last"><a href="userrate.html">user rate</a></li>
                         </ul>
-                    </li>
+                    </li>*@
                 </ul>
                 <ul class="nav navbar-nav flex-child-menu menu-right">
-                    <li class="dropdown first">
+                   @* <li class="dropdown first">
                         <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
                             pages <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </a>
@@ -90,7 +86,7 @@
                             <li class="it-last"><a href="comingsoon.html">Coming soon</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Help</a></li>*@
                     <li class="loginLink"><a href="#">LOG In</a></li>
                     <li class="btn signupLink"><a href="#">sign up</a></li>
                 </ul>
@@ -98,31 +94,15 @@
             <!-- /.navbar-collapse -->
         </nav>
         <!-- top search form -->
-
-
-        <div class="col-lg-4 col-md-5 col-4">
             @using (Html.BeginForm("SearchMovieByGenre", "Movie", FormMethod.Get))
             {
-                <div class="search-bar-top">
-                    <div class="search-bar">
-                        <div class="search-bar">
-                            @Html.DropDownList("genreName", "--Genres--")
-                        </div>
-                        <div class="row">
-                            <div class="col-md-10">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <div class="input-group-btn">
-                                            <input type="text" placeholder="Search here..." class="form-control" id="movieName" name="movieName" />
-                                            <button class="btn btn-primary" value="Search" type="submit"><i class="ti-search">Search</i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="top-search">
+                        @Html.DropDownList("genreName", "Select Genre")
+                        <input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for" id="movieName" name="movieName">
+                        <div class="top-search">
+                        <button class="active" value="Search" type="submit">Search</button>
                         </div>
                     </div>
-                </div>
             }
-        </div>
     </div>
 </header>
