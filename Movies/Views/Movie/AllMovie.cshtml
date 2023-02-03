@@ -137,16 +137,9 @@
             <div class="row ipad-width">
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div class="topbar-filter">
-                        @*<p>Found <span>@Model.Count() movies</span> in total</p>*@
-                        <label>Sort by:</label>
-                        <select>
-                            <option value="popularity">Popularity Descending</option>
-                            <option value="popularity">Popularity Ascending</option>
-                            <option value="rating">Rating Descending</option>
-                            <option value="rating">Rating Ascending</option>
-                            <option value="date">Release date Descending</option>
-                            <option value="date">Release date Ascending</option>
-                        </select>
+                       
+                        <p>Found <span>@Model.MoviesCount movies</span> in total</p>
+
                     </div>
                     <div class="flex-wrap-movielist">
 
