@@ -24,6 +24,7 @@
         public Task AddMovie(AddMovieViewModel addMovie, string imagePath)
         {
             var genre = this.data.Genres.FirstOrDefault(s => s.GenreName == addMovie.GenreName);
+            var years = this.data.Years.FirstOrDefault(s => s.YearDate == addMovie.YearDate);
             videoService.CheckVideos(addMovie);
             var movie = new Movie
             {
@@ -32,7 +33,7 @@
                 Actor = addMovie.Actor,
                 Country = addMovie.Country,
                 Director = addMovie.Director,
-                Year = addMovie.Year,
+                YearId = years.YearId,
                 CoverPhoto = addMovie.CoverPhoto,
             };
             movie.Videos = new List<Video>();
@@ -64,7 +65,7 @@
                     Director = s.Director,
                     Country = s.Country,
                     CoverPhoto = s.CoverPhoto,
-                    Year = s.Year,
+                    YearDate = s.Year.YearDate,
                 })
                 .OrderBy(s => s.MovieName)
                 .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
@@ -86,7 +87,7 @@
                     Actor = s.Actor,
                     Country = s.Country,
                     CoverPhoto = s.CoverPhoto,
-                    Year = s.Year,
+                    YearDate = s.Year.YearDate,
                     Director = s.Director,
                     Gallery = s.Videos
                     .Select(s => new VideoGalleryModel

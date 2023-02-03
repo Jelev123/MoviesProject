@@ -17,7 +17,7 @@ namespace Movies.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.12")
+                .HasAnnotation("ProductVersion", "6.0.13")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -272,13 +272,14 @@ namespace Movies.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Year")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("YearId")
+                        .HasColumnType("int");
 
                     b.HasKey("MovieId");
 
                     b.HasIndex("GenreId");
+
+                    b.HasIndex("YearId");
 
                     b.ToTable("Movies");
                 });
@@ -309,6 +310,23 @@ namespace Movies.Infrastructure.Migrations
                     b.HasIndex("MovieId");
 
                     b.ToTable("Videos");
+                });
+
+            modelBuilder.Entity("Movies.Infrastructure.Data.Models.Year", b =>
+                {
+                    b.Property<int>("YearId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("YearId"), 1L, 1);
+
+                    b.Property<string>("YearDate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("YearId");
+
+                    b.ToTable("Years");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -370,7 +388,15 @@ namespace Movies.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Movies.Infrastructure.Data.Models.Year", "Year")
+                        .WithMany("Movies")
+                        .HasForeignKey("YearId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Genre");
+
+                    b.Navigation("Year");
                 });
 
             modelBuilder.Entity("Movies.Infrastructure.Data.Models.Video", b =>
@@ -392,6 +418,11 @@ namespace Movies.Infrastructure.Migrations
             modelBuilder.Entity("Movies.Infrastructure.Data.Models.Movie", b =>
                 {
                     b.Navigation("Videos");
+                });
+
+            modelBuilder.Entity("Movies.Infrastructure.Data.Models.Year", b =>
+                {
+                    b.Navigation("Movies");
                 });
 #pragma warning restore 612, 618
         }

@@ -29,6 +29,7 @@
                         <a class="btn btn-default" asp-action="AllMovie" asp-controller="Movie">
                             Movies
                         </a>
+                       
                         @*<ul class="dropdown-menu level1">
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Movie grid<i class="ion-ios-arrow-forward"></i></a>
@@ -42,18 +43,12 @@
                         <li class="it-last"><a href="seriessingle.html">Series single</a></li>
                         </ul>*@
                     </li>
-                   @* <li class="dropdown first">
-                        <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-                            celebrities <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </a>
-                        <ul class="dropdown-menu level1">
-                            <li><a href="celebritygrid01.html">celebrity grid 01</a></li>
-                            <li><a href="celebritygrid02.html">celebrity grid 02 </a></li>
-                            <li><a href="celebritylist.html">celebrity list</a></li>
-                            <li class="it-last"><a href="celebritysingle.html">celebrity single</a></li>
-                        </ul>
-                    </li>
                     <li class="dropdown first">
+                        <a class="btn btn-default" asp-action="AddMovie" asp-controller="Movie">
+                           Add Movies
+                        </a>
+                    </li>
+                    @*<li class="dropdown first">
                         <a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
                             news <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </a>
@@ -94,10 +89,11 @@
             <!-- /.navbar-collapse -->
         </nav>
         <!-- top search form -->
-            @using (Html.BeginForm("SearchMovieByGenre", "Movie", FormMethod.Get))
+            @using (Html.BeginForm("SearchMovie", "Movie", FormMethod.Get))
             {
                     <div class="top-search">
                         @Html.DropDownList("genreName", "Select Genre")
+                        @Html.DropDownList("yearDate", "Select Year")
                         <input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for" id="movieName" name="movieName">
                         <div class="top-search">
                         <button class="active" value="Search" type="submit">Search</button>

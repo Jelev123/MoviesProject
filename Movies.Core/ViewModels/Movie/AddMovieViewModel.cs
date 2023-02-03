@@ -1,6 +1,5 @@
 ﻿namespace Movies.Core.ViewModels.Movie
 {
-    using Microsoft.AspNetCore.Http;
     using Movies.Core.ViewModels.Video;
 
     public class AddMovieViewModel
@@ -19,7 +18,7 @@
 
         public string Actor { get; set; }
 
-        public string Year { get; set; }
+        public string YearDate { get; set; }
 
         public string CoverPhoto { get; set; }
 

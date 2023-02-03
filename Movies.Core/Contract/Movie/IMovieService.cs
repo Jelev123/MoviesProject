@@ -14,6 +14,5 @@
         IEnumerable<IndexRandomViewModel> RandomMovies(int count);
 
         int GetCount();
-
     }
 }

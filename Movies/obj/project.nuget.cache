@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/Ecp4zDmCXWT2CRyvKfE8ggmP1PT16ezewJNcTQBPGjhhRI45JniwehD0hW/kvej4jIDcYbhjmB9rGSXR5hJXg==",
+  "dgSpecHash": "HcQ8q22wvFG1icIb1IorrqcE68PXxrzUKSs6qjbssnXuEKOlty26RI19uekuM5Z0xD/HrU1FVkHmjeGTMRSOQA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\MoviesProject\\Movies\\Movies.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -162,6 +163,7 @@
     "C:\\Users\\Owner\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",

@@ -13,6 +13,8 @@ using Movies.Core.Services.Search;
 using Movies.Infrastructure.Data;
 using System.Text.Json;
 using Movies.Data;
+using Movies.Core.Contract.Year;
+using Movies.Core.Services.Year;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +32,7 @@ builder.Services.AddTransient<IMovieService, MovieService>();
 builder.Services.AddTransient<IVideoService, VideoService>();
 builder.Services.AddTransient<IGenreService, GenreService>();
 builder.Services.AddTransient<ISearchService, SearchService>();
+builder.Services.AddTransient<IYearService, YearService>();
 
 
     var app = builder.Build();

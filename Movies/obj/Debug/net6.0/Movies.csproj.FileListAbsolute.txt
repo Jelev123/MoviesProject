@@ -119,7 +119,6 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.UI.dll
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.Xaml.dll
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\Uno.dll
 D:\Projects\MoviesProject\Movies\obj\Debug\net6.0\Movies.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\PlayVideo.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\_ViewStart.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Home\Privacy.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\PlayVideo.cshtml
@@ -478,9 +477,6 @@ C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\V
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\images\unnamed.png
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovieByGenre.cshtml
 C:\Users\zzhelev\Documents\GitHub\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Search\SearchMovie.cshtml
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\AddMovieOld.cshtml
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\GetMovieByIdOld.cshtml
-D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovieByGenre.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Search\SearchMovie.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\ajax-loader.html
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\wwwroot\css\fonts\slick-2.html
@@ -961,3 +957,6 @@ D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\Ac
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\Error.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml
 D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Areas\Identity\Pages\_ViewImports.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\movies\Views\Movie\SearchMovie.cshtml
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\Projects\MoviesProject\Movies\bin\Debug\net6.0\System.IO.Packaging.dll

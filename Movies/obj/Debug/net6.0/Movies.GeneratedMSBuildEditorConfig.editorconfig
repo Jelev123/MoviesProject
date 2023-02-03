@@ -439,15 +439,6 @@ build_metadata.AdditionalFiles.XamlRuntime =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MoviesProject/Movies/Views/Movie/AddMovieOld.cshtml]
-build_metadata.AdditionalFiles.SourceItemGroup = 
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\AddMovieOld.cshtml
-build_metadata.AdditionalFiles.Identity = Views\Movie\AddMovieOld.cshtml
-build_metadata.AdditionalFiles.XamlRuntime = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkTW92aWVPbGQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Projects/MoviesProject/Movies/Views/Movie/AllMovie.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
@@ -466,31 +457,13 @@ build_metadata.AdditionalFiles.XamlRuntime =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcR2V0TW92aWVCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MoviesProject/Movies/Views/Movie/GetMovieByIdOld.cshtml]
+[D:/Projects/MoviesProject/Movies/Views/Movie/SearchMovie.cshtml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\GetMovieByIdOld.cshtml
-build_metadata.AdditionalFiles.Identity = Views\Movie\GetMovieByIdOld.cshtml
+build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\SearchMovie.cshtml
+build_metadata.AdditionalFiles.Identity = Views\Movie\SearchMovie.cshtml
 build_metadata.AdditionalFiles.XamlRuntime = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcR2V0TW92aWVCeUlkT2xkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/MoviesProject/Movies/Views/Movie/PlayVideo.cshtml]
-build_metadata.AdditionalFiles.SourceItemGroup = 
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\PlayVideo.cshtml
-build_metadata.AdditionalFiles.Identity = Views\Movie\PlayVideo.cshtml
-build_metadata.AdditionalFiles.XamlRuntime = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcUGxheVZpZGVvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/MoviesProject/Movies/Views/Movie/SearchMovieByGenre.cshtml]
-build_metadata.AdditionalFiles.SourceItemGroup = 
-build_metadata.AdditionalFiles.Link = 
-build_metadata.AdditionalFiles.FullPath = D:\Projects\MoviesProject\Movies\Views\Movie\SearchMovieByGenre.cshtml
-build_metadata.AdditionalFiles.Identity = Views\Movie\SearchMovieByGenre.cshtml
-build_metadata.AdditionalFiles.XamlRuntime = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2VhcmNoTW92aWVCeUdlbnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2VhcmNoTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/MoviesProject/Movies/Views/Search/SearchMovie.cshtml]

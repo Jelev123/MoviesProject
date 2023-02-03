@@ -12,7 +12,9 @@
 
         public string Actor { get; set; }
 
-        public string Year { get; set; }
+        public int YearId { get; set; }
+
+        public Year Year { get; set; }
 
         public string CoverPhoto { get; set; }
 

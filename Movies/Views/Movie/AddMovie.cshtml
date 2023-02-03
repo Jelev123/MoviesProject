@@ -174,9 +174,14 @@
                                 <span asp-validation-for="Director" class="text-danger"></span>
                             </div>
                             <div class="form-group">
-                                <label asp-for="Year"></label>
-                                <input asp-for="Year" class="form-control" />
-                                <span asp-validation-for="Year" class="text-danger"></span>
+                                <label asp-for="YearDate"></label>
+                                <select class="form-control text-primary" id="years" asp-for="YearDate">
+                                    <option selected disabled><------></></option>
+                                    @foreach (var year in (IEnumerable<AddMovieViewModel>)this.ViewData["years"])
+                                    {
+                                        <option value="@year.YearDate">@year.YearDate</option>
+                                    }
+                                </select>
                             </div>
                             <div id="VideoContainer">
                                 <label asp-for="Video"></label>

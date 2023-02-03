@@ -19,8 +19,10 @@
             this.movieService = movieService;
         }
 
-        public IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName, int page, int itemsPerPage = 6)
+        public IEnumerable<SearchViewModel> SearchMovie(string genreName, string movieName, string year,  int page, int itemsPerPage = 6)
 		{
+
+
 			var searchedMovive = this.data.Movies
 				.Select(s => new SearchViewModel
 				{
@@ -29,11 +31,91 @@
 					Country = s.Country,
 					Director = s.Director,
 					CoverPhoto = s.CoverPhoto,
-					Year = s.Year,
+					Year = s.Year.YearDate,
 					GenreName = s.Genre.GenreName,
 					MovieId = s.MovieId,
 				})
-				.Where(s => (s.GenreName.Contains(genreName)) || (s.MovieName.Contains(movieName)));
+				.Where(s => (s.MovieName.Contains(movieName)));
+
+
+			//if (movieName != null)
+   //         {
+			//	var searchedMoviveByName = this.data.Movies
+			//	.Select(s => new SearchViewModel
+			//	{
+			//		MovieName = s.MovieName,
+			//		Actor = s.Actor,
+			//		Country = s.Country,
+			//		Director = s.Director,
+			//		CoverPhoto = s.CoverPhoto,
+			//		Year = s.Year.YearDate,
+			//		GenreName = s.Genre.GenreName,
+			//		MovieId = s.MovieId,
+			//	})
+			//	.Where(s => (s.MovieName.Contains(movieName)));
+			//	return searchedMoviveByName;
+			//}
+
+
+            if (genreName != null)
+            {
+				var searchedMoviveByGenre = this.data.Movies
+				.Select(s => new SearchViewModel
+				{
+					MovieName = s.MovieName,
+					Actor = s.Actor,
+					Country = s.Country,
+					Director = s.Director,
+					CoverPhoto = s.CoverPhoto,
+					Year = s.Year.YearDate,
+					GenreName = s.Genre.GenreName,
+					MovieId = s.MovieId,
+				})
+				.Where(s => (s.GenreName.Contains(genreName)));
+
+				return searchedMoviveByGenre;
+			}
+
+			if (year != null)
+			{
+				var searchedMoviveByYear = this.data.Movies
+				.Select(s => new SearchViewModel
+				{
+					MovieName = s.MovieName,
+					Actor = s.Actor,
+					Country = s.Country,
+					Director = s.Director,
+					CoverPhoto = s.CoverPhoto,
+					Year = s.Year.YearDate,
+					GenreName = s.Genre.GenreName,
+					MovieId = s.MovieId,
+				})
+				.Where(s => (s.Year.Contains(year)));
+
+				return searchedMoviveByYear;
+			}
+
+
+			if (genreName != null && year != null)
+            {
+				var searchedMoviveByGenreAndYear = this.data.Movies
+				.Select(s => new SearchViewModel
+				{
+					MovieName = s.MovieName,
+					Actor = s.Actor,
+					Country = s.Country,
+					Director = s.Director,
+					CoverPhoto = s.CoverPhoto,
+					Year = s.Year.YearDate,
+					GenreName = s.Genre.GenreName,
+					MovieId = s.MovieId,
+				})
+				.Where(s => (s.GenreName.Contains(genreName))
+				&& (s.Year.Contains(year)));
+
+
+				return searchedMoviveByGenreAndYear;
+			}
 
 			return searchedMovive;
 		}
